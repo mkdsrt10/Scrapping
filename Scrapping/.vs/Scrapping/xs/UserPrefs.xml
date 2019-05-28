@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.Scrapping FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../HTTPreq.go">
+    <Files>
+      <File FileName="../HTTPreq.go" Line="14" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Scrapping" expanded="True">
+            <Node name="Scrapping" expanded="True">
+              <Node name="MyClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mayankdubey/Desktop/Scrapping/HTTPreq.go" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

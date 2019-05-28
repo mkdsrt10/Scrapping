@@ -58,7 +58,7 @@ func returnFeeTable(pageContent string) []TupleStr{
   table := make([]TupleStr, 0)
   //writeInFile(pageContent, "writeTable.html")
   //Create a regular expression to find comments
-  re:= regexp.MustCompile("<tr>(?:\r\n?)<td>(?:<strong>)?([^<\r\n]+)(?:</strong>)?</td>(?:\r\n?)<td>(?:<strong>)?([^<\r\n]+)(?:</strong>)?</td>(?:\r\n?)</tr>")
+  re:= regexp.MustCompile("<tr>(?:\r\n?)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)?(?:<p>)?(?:<strong>)?([^</]+)(?:</strong>)?(?:</p>)?(?:[\n\t\r ]*)</td>(?:\r\n?)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)?(?:<p>)?(?:<strong>)?([^</]+)(?:</strong>)?(?:</p>)?(?:[\n\t\r ]*)</td>(?:\r\n?)</tr>")
   comments := re.FindAllStringSubmatchIndex(pageContent, -1)
   //fmt.Println(comments)
   if comments == nil {
@@ -103,6 +103,7 @@ func returnHiddenF(pageContent string) []TupleStr{
 func returnCardData(urll string) []TupleStr{
     // Make HTTP GET request
     // fmt.Println("Start scrapping from ", urll)
+    var hiddenContent string
     var table []TupleStr
     var titleStartIndex, titleEndIndex int
     var pageContent string
@@ -127,7 +128,9 @@ func returnCardData(urll string) []TupleStr{
     if titleStartIndex != -10 {
       tableContent := pageContent[titleStartIndex+t:]
       titleEndIndex = strings.Index(tableContent, "</table>")
-      tableContent = tableContent[:titleEndIndex]
+      if titleEndIndex >= 0{
+        tableContent = tableContent[:titleEndIndex]
+      }
       for _,elm := range returnFeeTable(tableContent){
         table = append(table, elm)
       }
@@ -135,9 +138,13 @@ func returnCardData(urll string) []TupleStr{
     // table = append(table, returnFeeTable(tableContent))
     //fmt.Println(table)
     titleStartIndex = strings.Index(pageContent, "offers-section  offer")
-    hiddenContent := pageContent[titleStartIndex:]
-    titleEndIndex = strings.Index(hiddenContent, "<div class=\"js-offer-compare-table\"></div>")
-    hiddenContent = hiddenContent[:titleEndIndex]
+    if titleStartIndex >= 0{
+      hiddenContent = pageContent[titleStartIndex:]
+      titleEndIndex = strings.Index(hiddenContent, "<div class=\"js-offer-compare-table\"></div>")
+      if titleEndIndex >= 0{
+        hiddenContent = hiddenContent[:titleEndIndex]
+      }
+    }
     //writeInFile(hiddenContent, "HiddenC.html")
     for _,elm := range returnHiddenF(hiddenContent){
       table = append(table, elm)
@@ -180,39 +187,37 @@ func main(){
   if os.Args[1] == "multi"{
     // var keys []string
     siteList := links()
-    var keyVal [][]TupleStr
+    // var keyVal [][]TupleStr
+
+    file, err := os.Create("result.csv")
+    check(err)
+    defer file.Close()
+    writer := csv.NewWriter(file)
+    defer writer.Flush()
+    er := writer.Write([]string{"Name of credit card","Bank","Network","Annual Fee", "Annual Fee Waiver","Joining Fee","Interest Rate","Cash Withdrawal Fee","Cash Advance Interest","Foreign currency transaction fee","Fuel Surcharge"})
+    check(er)
+
     for _, r := range siteList{
       fmt.Println("____Start all Scrapping____\n")
       urllist := urlList("https://www.bankbazaar.com"+r)
-      // fmt.Println("\n________*******________\n")
-      // for i, el := range urllist{
-      //   fmt.Println(string(i)+" : "+el)
-      // }
       fmt.Println("Site : ", r)
       fmt.Println("No. of cards :", len(urllist))
       fmt.Println("\n________*******________\n")
       for _, elm := range urllist{
-        keyVal = append(keyVal, returnCardData("https://www.bankbazaar.com"+elm))
-        // for _, el := range a{
-          // if notPresentIn(keys, el.key){
-          //   keys = append(keys, el.key)
-          // }
-          // fmt.Println(string(i)+" : "+el.key+" -> "+el.value)
-        // }
+        err := writer.Write(toOurFormat(toMap(returnCardData("https://www.bankbazaar.com"+elm))))
+        check(err)
+        // keyVal = append(keyVal, returnCardData("https://www.bankbazaar.com"+elm))
       }
-      // var resultStr string
-      // for _, er := range keys{
-      //   resultStr +=  er + "\n"
-      // }
-      // writeInFile(resultStr, "result.csv")
     }
     fmt.Println("____Done all Scrapping____\n")
-    writeToCSV(keyVal)
+    defer writer.Flush()
+    // writeToCSV(keyVal)
   } else {
     a := returnCardData(os.Args[1])
-      for i, el := range a{
-        fmt.Println(string(i)+" : "+el.key+" -> "+el.value)
-      }
+    fmt.Println(toMap(a))
+      // for i, el := range a{
+      //   fmt.Println(string(i)+" : "+el.key+" -> "+el.value)
+      // }
   }
 }
 
@@ -221,13 +226,15 @@ func toOurKey(k string) string{
   switch false{
   case k != "name of card":
     return "Name of Card"
-  case notPresentIn([]string{"annual-fee",	"Annual fee (from 2nd of card membership)",	"Annual fee from year-2 onwards (primary cardholder)", "Annual fee	Annual fees"}, k):
+  case notPresentIn([]string{"annual-fee", "First Year Annual Fee",	"Annual fee (from 2nd of card membership)",	"Annual fee from year-2 onwards (primary cardholder)", "Annual fee", "First year annual fee",	"Annual fees"}, k):
     return "Annual Fee"
-  case notPresentIn([]string{"Joining fee",	"Joining Fee (Primary Cardholder)",	"Joining fees"}, k):
+  case notPresentIn([]string{"Joining Fee (1st year)", "Joining fee",	"Joining Fee (Primary Cardholder)",	"Joining fees"}, k):
     return "Joining Fee"
-  case notPresentIn([]string{"Charges on purchases",	"Interest rate (cash and retail purchases)",	"Finance charges",	"Finance charges - cash and retail transactions", "Finance charges (cash and retail purchases)"}, k):
+  case notPresentIn([]string{"Minimum Spends for Annual Fee Reversal", "Minimum spend for waiver of annual fee"}, k):
+    return "Annual Fee Waiver"
+  case notPresentIn([]string{"Overdue interest in extended credit", "Charges on purchases",	"Interest rate (cash and retail purchases)",	"Finance charges",	"Finance charges - cash and retail transactions", "Finance charges (cash and retail purchases)"}, k):
     return "Interest Rate"
-  case notPresentIn([]string{"Cash withdrawal charges",	"Cash withdrawal or cash advance fees",	"Fees on cash transaction",	"Finance charges - on cash advances",	"Interest on cash advances"}, k):
+  case notPresentIn([]string{"Cash advance charge", "Cash withdrawal charges",	"Cash withdrawal or cash advance fees",	"Fees on cash transaction", "Finance charge for cash advance",	"Finance charges - on cash advances",	"Interest on cash advances"}, k):
     return "Cash Advance Interest"
   case notPresentIn([]string{"Cash withdrawal fee", "Fee for cash withdrawal"}, k):
     return "Cash Advance Fee"
@@ -256,6 +263,7 @@ func toOurFormat(keyVal map[string]string)[]string{
   result = append(result, keyVal["Bank"])
   result = append(result, keyVal["Network"])
   result = append(result, keyVal["Annual Fee"])
+  result = append(result, keyVal["Annual Fee Waiver"])
   result = append(result, keyVal["Joining Fee"])
   result = append(result, keyVal["Interest Rate"])
   result = append(result, keyVal["Cash Advance Fee"])
@@ -263,25 +271,25 @@ func toOurFormat(keyVal map[string]string)[]string{
   result = append(result, keyVal["Foreign Currency Mark-up"])
   result = append(result, keyVal["Fuel Surcharge"])
   for k, e := range keyVal{
-    if notPresentIn([]string{"Name of Card","Bank","Network", "Annual Fee", "Joining Fee", "Interest Rate", "Cash Advance Fee", "Cash Advance Interest", "Foreign Currency Mark-up", "Fuel Surcharge"}, k){
+    if notPresentIn([]string{"Name of Card","Bank","Network", "Annual Fee", "Joining Fee", "Interest Rate", "Cash Advance Fee", "Cash Advance Interest", "Foreign Currency Mark-up", "Fuel Surcharge",    "joining-perks", "popularity", "card-fee-type"}, k){
       result = append(result, k+" : "+e)
     }
   }
   return result
 }
-func writeToCSV(keyVal [][]TupleStr){
-  file, err := os.Create("result.csv")
-  check(err)
-  defer file.Close()
-  writer := csv.NewWriter(file)
-  defer writer.Flush()
-  er := writer.Write([]string{"Name of credit card","Bank","Network","Annual Fee","Joining Fee","Interest Rate","Cash Withdrawal Fee","Cash Advance Interest","Foreign currency transaction fee","Fuel Surcharge"})
-  check(er)
-  for _, value := range keyVal {
-      err := writer.Write(toOurFormat(toMap(value)))
-      check(err)
-  }
-}
+// func writeToCSV(keyVal [][]TupleStr){
+//   file, err := os.Create("result.csv")
+//   check(err)
+//   defer file.Close()
+//   writer := csv.NewWriter(file)
+//   defer writer.Flush()
+//   er := writer.Write([]string{"Name of credit card","Bank","Network","Annual Fee","Joining Fee","Interest Rate","Cash Withdrawal Fee","Cash Advance Interest","Foreign currency transaction fee","Fuel Surcharge"})
+//   check(er)
+//   for _, value := range keyVal {
+//       err := writer.Write(toOurFormat(toMap(value)))
+//       check(err)
+//   }
+// }
 
 
 func links() []string {
