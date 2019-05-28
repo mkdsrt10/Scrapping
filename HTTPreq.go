@@ -58,7 +58,7 @@ func returnFeeTable(pageContent string) []TupleStr{
   table := make([]TupleStr, 0)
   //writeInFile(pageContent, "writeTable.html")
   //Create a regular expression to find comments
-  re:= regexp.MustCompile("<tr>(?:\r\n?)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)?(?:<p>)?(?:<strong>)?([^</]+)(?:</strong>)?(?:</p>)?(?:[\n\t\r ]*)</td>(?:\r\n?)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)?(?:<p>)?(?:<strong>)?([^</]+)(?:</strong>)?(?:</p>)?(?:[\n\t\r ]*)</td>(?:\r\n?)</tr>")
+  re:= regexp.MustCompile("<tr>(?:[\t\n\r ]*)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)(?:<p>)?(?:[\t\n\r ]*)(?:<strong>)?(?:[\t\n\r ]*)([^</]+)(?:[\t\n\r ]*)(?:</strong>)?(?:[\t\n\r ]*)(?:</p>)?(?:[\n\t\r ]*)</td>(?:[\t\n\r ]*)<td(?:[\t\r\n ]*colspan=\"[0-9]\"[\t\r\n ]*)?>(?:[\t\n\r ]*)?(?:<p>)?(?:[\t\n\r ]*)(?:<strong>)?(?:[\t\n\r ]*)([^</]+)(?:[\t\n\r ]*)(?:</strong>)?(?:[\t\n\r ]*)(?:</p>)?(?:[\n\t\r ]*)</td>(?:[\t\n\r ]*)</tr>")
   comments := re.FindAllStringSubmatchIndex(pageContent, -1)
   //fmt.Println(comments)
   if comments == nil {
@@ -226,19 +226,19 @@ func toOurKey(k string) string{
   switch false{
   case k != "name of card":
     return "Name of Card"
-  case notPresentIn([]string{"annual-fee", "First Year Annual Fee",	"Annual fee (from 2nd of card membership)",	"Annual fee from year-2 onwards (primary cardholder)", "Annual fee", "First year annual fee",	"Annual fees"}, k):
+  case notPresentIn([]string{"Annual Fee", "Annual Fee (First year)", "Annual Fee (1st year)", "annual-fee", "First Year Annual Fee",	"Annual fee (from 2nd of card membership)",	"Annual fee from year-2 onwards (primary cardholder)", "Annual fee", "First year annual fee",	"Annual fees"}, k):
     return "Annual Fee"
-  case notPresentIn([]string{"Joining Fee (1st year)", "Joining fee",	"Joining Fee (Primary Cardholder)",	"Joining fees"}, k):
+  case notPresentIn([]string{"Joining fee (paid variant)", "Joining fee (free variant)", "Joining Fee (1st year)", "Joining fee", "Joining fee ",	"Joining Fee (Primary Cardholder)",	"Joining fees"}, k):
     return "Joining Fee"
   case notPresentIn([]string{"Minimum Spends for Annual Fee Reversal", "Minimum spend for waiver of annual fee"}, k):
     return "Annual Fee Waiver"
-  case notPresentIn([]string{"Overdue interest in extended credit", "Charges on purchases",	"Interest rate (cash and retail purchases)",	"Finance charges",	"Finance charges - cash and retail transactions", "Finance charges (cash and retail purchases)"}, k):
+  case notPresentIn([]string{"Interest rate", "Interest Charges", "Rate of interest", "Interest on pending dues on the card", "Interest on revolving credit", "Overdue interest in extended credit", "Charges on purchases",	"Interest rate (cash and retail purchases)",	"Finance charges",	"Finance charges - cash and retail transactions", "Finance charges (cash and retail purchases)"}, k):
     return "Interest Rate"
-  case notPresentIn([]string{"Cash advance charge", "Cash withdrawal charges",	"Cash withdrawal or cash advance fees",	"Fees on cash transaction", "Finance charge for cash advance",	"Finance charges - on cash advances",	"Interest on cash advances"}, k):
+  case notPresentIn([]string{"Cash Advance Fees", "Cash advance fee", "Cash Withdrawal Fee", "Cash withdrawal fees", "Cash advance transaction fee", "Cash withdrawal fee ", "Cash advance charges", "Cash advance charge", "Cash withdrawal charges",	"Cash withdrawal or cash advance fees",	"Fees on cash transaction", "Finance charge for cash advance",	"Finance charges - on cash advances",	"Interest on cash advances"}, k):
     return "Cash Advance Interest"
-  case notPresentIn([]string{"Cash withdrawal fee", "Fee for cash withdrawal"}, k):
+  case notPresentIn([]string{"ATM cash withdrawal fee, call-a-draft fee, and find transfer fee", "Cash Withdrawal fee", "Cash withdrawal fee", "Fee for cash withdrawal"}, k):
     return "Cash Advance Fee"
-  case notPresentIn([]string{"Payments in foreign currency",	"Foreign currency transaction fee",	"Foreign currency transaction charge",	"Foreign Currency Transaction Fee",	"Fee for foreign currency transaction"}, k):
+  case notPresentIn([]string{"Transaction of Foreign Currency", "Transaction for Foreign Currency ", "Foreign Transaction Mark-Up", "Foreign currency transaction fee ", "Payments is foreign currency", "Transactions with foreign currency", "Foreign currency mark-up fee", "Foreign currency mark-up","Foreign currency mark-up charge", "Foreign currency markup fee", "Foreign currency mark-up charges", "Foreign Currency mark-up charges", "Payments in foreign currency",	"Foreign currency transaction fee",	"Foreign currency transaction charge",	"Foreign Currency Transaction Fee",	"Fee for foreign currency transaction", "Foreign currency transaction"}, k):
     return "Foreign Currency Mark-up"
   case k != "networks":
     return "Network"
@@ -271,7 +271,7 @@ func toOurFormat(keyVal map[string]string)[]string{
   result = append(result, keyVal["Foreign Currency Mark-up"])
   result = append(result, keyVal["Fuel Surcharge"])
   for k, e := range keyVal{
-    if notPresentIn([]string{"Name of Card","Bank","Network", "Annual Fee", "Joining Fee", "Interest Rate", "Cash Advance Fee", "Cash Advance Interest", "Foreign Currency Mark-up", "Fuel Surcharge",    "joining-perks", "popularity", "card-fee-type"}, k){
+    if notPresentIn([]string{"Name of Card","Bank","Network", "Annual Fee", "Annual Fee Waiver", "Joining Fee", "Interest Rate", "Cash Advance Fee", "Cash Advance Interest", "Foreign Currency Mark-up", "Fuel Surcharge",    "joining-perks", "popularity", "card-fee-type"}, k){
       result = append(result, k+" : "+e)
     }
   }

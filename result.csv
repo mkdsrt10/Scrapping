@@ -1,192 +1,431 @@
 Name of credit card,Bank,Network,Annual Fee,Annual Fee Waiver,Joining Fee,Interest Rate,Cash Withdrawal Fee,Cash Advance Interest,Foreign currency transaction fee,Fuel Surcharge
-ICICI Ferrari Signature Credit Card,ICICI,Visa,3999,"Rs.2,25,000","Rs.3,999 + GST",,,,,,"Annual Fee (1st year) : Rs.3,999 + GST",Supplementary Card Fee : Nil,"Annual Fee (2nd year onwards) : Rs.3,999 + GST","Annual Fee Waiver : Rs.2,25,000","rewards-type : Premium, Lifestyle, Rewards, Travel, Fuel"
-ICICI Ferrari Platinum Credit Card,ICICI,Visa,499,,Rs.499 (excluding GST),,,,,,"rewards-type : Lifestyle, Rewards, Travel, Fuel",Annual Fee (First year) : Nil,Minimum spend for waiver of annual fee  : Rs.1.25 lakh ,Annual Fee (from second year) : Rs.499 (excluding GST),Add-on card fee : Nil
-ICICI Bank Coral Contactless Credit Card,ICICI,Visa,0,,,3.40% per month,,"2.50% of advanced amount, subject to a minimum of Rs.300",,,"Outstation cheque processing fee : 1% of cheque value, subject to a minimum of Rs.100",Duplicate statement : Rs.100,Card replacement fee : Rs.100,"Second Year Onwards Annual Fee : Rs.500 plus GST (Waived on spending Rs.1,50,000 or more)","Late payment charge : Below Rs.100 - Nil
+ICICI Ferrari Signature Credit Card,ICICI,Visa,3999,"Rs.2,25,000","Rs.3,999 + GST",,,,,,"rewards-type : Premium, Lifestyle, Rewards, Travel, Fuel","Annual Fee (2nd year onwards) : Rs.3,999 + GST",Supplementary Card Fee : Nil
+ICICI Ferrari Platinum Credit Card,ICICI,Visa,499,,Rs.499 (excluding GST),,,,,,Minimum spend for waiver of annual fee  : Rs.1.25 lakh ,Add-on card fee : Nil,"rewards-type : Lifestyle, Rewards, Travel, Fuel",Annual Fee (from second year) : Rs.499 (excluding GST)
+ICICI Bank Coral Contactless Credit Card,ICICI,Visa,0,,,3.40% per month,,"2.50% of advanced amount, subject to a minimum of Rs.300",,,Cash payment at branches fee : Rs.100 per transaction,"Outstation cheque processing fee : 1% of cheque value, subject to a minimum of Rs.100",Charge slip fee : Rs.100 per slip,"Second Year Onwards Annual Fee : Rs.500 plus GST (Waived on spending Rs.1,50,000 or more)","Over-limit charge : 2.50% of over-limit amount, subject to a minimum of Rs.500",Redemption handling fee : Rs.99,Duplicate statement : Rs.100,"rewards-type : Lifestyle, Rewards, Travel","Auto-Debit return fee : 2% of amount due, subject to a minimum of Rs.450","Return cheque fee : 2% of amount due, subject to a minimum of Rs.450",Card replacement fee : Rs.100,"Late payment charge : Below Rs.100 - Nil
 Rs.100 to Rs.500 - Rs.100
 Rs.501 to Rs.10,000 - Rs.500
 Above Rs.10,000 - Rs.750
-","Auto-Debit return fee : 2% of amount due, subject to a minimum of Rs.450","rewards-type : Lifestyle, Rewards, Travel","Over-limit charge : 2.50% of over-limit amount, subject to a minimum of Rs.500",Cash payment at branches fee : Rs.100 per transaction,Charge slip fee : Rs.100 per slip,Redemption handling fee : Rs.99,"Return cheque fee : 2% of amount due, subject to a minimum of Rs.450"
-ICICI Bank Rubyx Credit Card,ICICI,Master,3000,,,3.40% per month,,"2.50% of advanced amount, subject to a minimum of Rs.300",,,Redemption handling fee : Rs.99,"Return cheque fee : 2% of amount due, subject to a minimum of Rs.450","Auto-Debit return fee : 2% of amount due, subject to a minimum of Rs.450","Outstation cheque processing fee : 1% of cheque value, subject to a minimum of Rs.100",Duplicate statement : Rs.100,Card replacement fee : Rs.100,"rewards-type : Lifestyle, Travel, Rewards","Late payment charge : Below Rs.100 - Nil
+"
+ICICI Bank Rubyx Credit Card,ICICI,Master,3000,,,3.40% per month,,"2.50% of advanced amount, subject to a minimum of Rs.300",,,"Auto-Debit return fee : 2% of amount due, subject to a minimum of Rs.450","rewards-type : Lifestyle, Travel, Rewards","Over-limit charge : 2.50% of over-limit amount, subject to a minimum of Rs.500","Outstation cheque processing fee : 1% of cheque value, subject to a minimum of Rs.100",Duplicate statement : Rs.100,Charge slip fee : Rs.100 per slip,"Second year onwards annual fee : Rs.2,000 plus GST (Waived on spending Rs.3,00,000 and more)",Cash payment at branches fee : Rs.100 per transaction,"Return cheque fee : 2% of amount due, subject to a minimum of Rs.450",Redemption handling fee : Rs.99,"Late payment charge : Below Rs.100 - Nil
 Rs.100 to Rs.500 - Rs.100
 Rs.501 to Rs.10,000 - Rs.500
 Above Rs.10,000 - Rs.750
-",Charge slip fee : Rs.100 per slip,"Second year onwards annual fee : Rs.2,000 plus GST (Waived on spending Rs.3,00,000 and more)","Over-limit charge : 2.50% of over-limit amount, subject to a minimum of Rs.500",Cash payment at branches fee : Rs.100 per transaction
-ICICI Sapphiro Credit Card,ICICI,Master,6500,,"Rs.6,500 (excluding GST)",,,,,,Type of charges : Size of charges,Cash advance transaction fee : 2.5% on the advance amount for a minimum of Rs.300,"rewards-type : Premium, Travel, Lifestyle",Overlimit fee : 2.50% of the over-limit amount for which one would have to pay the minimum amount of Rs.500,"From Second year : Rs.3,500 (excluding GST)",Minimum card purchases for annual fee waiver : Rs.6 lakh,Dial-a-draft transaction fee : 3% of the draft value amount for which one will have to pay a minimum fee of Rs.300
-Jet Airways ICICI Bank Rubyx AMEX Credit Card,ICICI,AMEX,2500,,"Rs.2,500",,,,,,Supplementary card fee : Rs.250,Overdue interest on extended credit and cash advances : 3.50% per month,"rewards-type : Travel, Rewards, Lifestyle, Fuel"
+",Card replacement fee : Rs.100
+ICICI Sapphiro Credit Card,ICICI,Master,6500,,"Rs.6,500 (excluding GST)",,,2.5% on the advance amount for a minimum of Rs.300,,,Type of charges : Size of charges,Dial-a-draft transaction fee : 3% of the draft value amount for which one will have to pay a minimum fee of Rs.300,"rewards-type : Premium, Travel, Lifestyle","From Second year : Rs.3,500 (excluding GST)",Overlimit fee : 2.50% of the over-limit amount for which one would have to pay the minimum amount of Rs.500,Minimum card purchases for annual fee waiver : Rs.6 lakh
+Jet Airways ICICI Bank Rubyx AMEX Credit Card,ICICI,AMEX,2500,,"Rs.2,500",,,,,,Overdue interest on extended credit and cash advances : 3.50% per month,"rewards-type : Travel, Rewards, Lifestyle, Fuel",Supplementary card fee : Rs.250
 Jet Airways ICICI Bank Coral AMEX Credit Card,ICICI,AMEX,1250,,"Rs.1,250",,,,,,Supplementary card fee : Rs.250,"rewards-type : Travel, Rewards, Lifestyle, Fuel",Overdue interest on extended credit and cash advances : 3.50% per month (42% annualised)
-Jet Airways ICICI Bank Sapphiro AMEX Credit Card,ICICI,AMEX,5000,,"Rs.5,000",,,,,,Type of charges : Size of charges,"Second Year : Rs.5,000","rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel",Add-On Card Fee : Rs.250
-Jet Airways ICICI Bank Coral VISA Credit Card,ICICI,Visa,1250,,"Rs.1,250 (Plus GST)",,,,,,Annual fee for supplementary card : Rs.250,Cash advance transaction fee : 2.5% on the advance amount or Rs.300,Auto-debit return fee : 2% of full amount due (Minimum will have to be Rs.450.),"rewards-type : Travel, Rewards, Lifestyle, Fuel","Annual fee from second year : Rs.1,250 +GST (Waived on spends of Rs.3,00,000 and more).","  :  ",Charge slip request : Rs.100 for each charge slip,"Late payment fee : When the unsettled amount is: Rs.100 to Rs.500: Rs.100
+Jet Airways ICICI Bank Sapphiro AMEX Credit Card,ICICI,AMEX,5000,,"Rs.5,000",,,,,,Add-On Card Fee : Rs.250,"rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel",Type of charges : Size of charges,"Second Year : Rs.5,000"
+Jet Airways ICICI Bank Coral VISA Credit Card,ICICI,Visa,1250,,"Rs.1,250 (Plus GST)",,,2.5% on the advance amount or Rs.300,,,Auto-debit return fee : 2% of full amount due (Minimum will have to be Rs.450.),"Late payment fee : When the unsettled amount is: Rs.100 to Rs.500: Rs.100
  Rs.501 to Rs.10,000: Rs.500 
 Higher than Rs.10,000: Rs.750
-",Dial-a-draft transaction fee : 3% of the draft value amount for which you will have to pay a minimum fee of Rs.300
-Jet Airways ICICI Bank Rubyx VISA Credit Card,ICICI,Visa,2500,,"Rs.2,500 (Plus GST).",,,,,,Transactions with foreign currency : Mark-up of 3.50% (1.5% goes to American Express in case of AE cards).,"Annual fee from second year : Rs.2,500 (Plus GST).",Annual fee for Supplementary Card : Rs.250.,Return of cheque fee : 2% of the full amount due (Minimum will have to be Rs.450).,"rewards-type : Travel, Rewards, Lifestyle, Fuel",Charge slip request : Rs.100 for each charge slip.,Pick-up fee for cheque or cash : Rs.100 for each pick-up.,Dial-a-draft transaction fee : 3% of the draft value amount for which you will have to pay a minimum fee of Rs.300.,Overlimit fee : 2.50% of the over-limit amount or minimum of Rs.500.,Cash advance transaction fee : 2.5% on the advance amount or a minimum of Rs.300.
-Jet Airways ICICI Bank Sapphiro VISA Credit Card,ICICI,Visa,5000,,"Rs.5,000",,,,,,Type of charges : Size of charges,Add-on Card Fee : Rs.250,"rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel","From second year : Rs.5,000",Overdue interest on cash advances or credit extensions : 3.50% per month
+","  :  ","Annual fee from second year : Rs.1,250 +GST (Waived on spends of Rs.3,00,000 and more).",Annual fee for supplementary card : Rs.250,Charge slip request : Rs.100 for each charge slip,Dial-a-draft transaction fee : 3% of the draft value amount for which you will have to pay a minimum fee of Rs.300,"rewards-type : Travel, Rewards, Lifestyle, Fuel"
+Jet Airways ICICI Bank Rubyx VISA Credit Card,ICICI,Visa,2500,,"Rs.2,500 (Plus GST).",,,2.5% on the advance amount or a minimum of Rs.300.,Mark-up of 3.50% (1.5% goes to American Express in case of AE cards).,,Annual fee for Supplementary Card : Rs.250.,Charge slip request : Rs.100 for each charge slip.,Return of cheque fee : 2% of the full amount due (Minimum will have to be Rs.450).,Pick-up fee for cheque or cash : Rs.100 for each pick-up.,Dial-a-draft transaction fee : 3% of the draft value amount for which you will have to pay a minimum fee of Rs.300.,Overlimit fee : 2.50% of the over-limit amount or minimum of Rs.500.,"Annual fee from second year : Rs.2,500 (Plus GST).","rewards-type : Travel, Rewards, Lifestyle, Fuel"
+Jet Airways ICICI Bank Sapphiro VISA Credit Card,ICICI,Visa,5000,,"Rs.5,000",,,,,,Overdue interest on cash advances or credit extensions : 3.50% per month,Type of charges : Size of charges,"From second year : Rs.5,000",Add-on Card Fee : Rs.250,"rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel"
 "Axis Bank Vistara Signature Credit Card
-",Axis,Visa,3000,,,2.95% per month,,Rs.100,,1% of the paid amount,Surcharge on railway tickets : Dictated by IRCTC,Alerts on registered mobile number or balance enquiry : Nil,Payments is foreign currency : 3.50% of the transacted amount,Charges involved : Size of the charges,"rewards-type : Premium, Travel, Rewards, Lifestyle",Dishonour fee or cheque bounce : Rs.300,Re-issuing or replacement of card : Nil
-Axis Bank Privilege Credit Card,Axis,Master,1500,,Rs.1500 (NIL for Priority Customers),2.95% per month,,Rs.100,3.50% of the transacted amount,1% of the amount,Charges involved : Amount,Re-issuing or replacement of card : NIL,"rewards-type : Rewards, Lifestyle, Fuel, Travel",Dishonour fee or cheque bounce : Rs.300,Over limit penalty : Rs.500 or 3% of the over limit amount (whichever is higher)
-Axis Bank Vistara Credit Card | 15% Discount |Check Lounge Access & Limit,Axis,Visa,1500,,"Rs.1,500",2.95% per month (41.75% p.a.),,"2.5% of the amount withdrawn, subject to a minimum of Rs.250",3.5% of the transacted amount,,Fee incurred for cash payments : Rs.100,Copy request or chargeslip retrieval : Waived,Outstation cheque : Waived,Joining fee (add-on cardholder) : Nil,Annual fee from year-2 onwards (add-on cardholder) : Nil,Re-issuing or replacement of lost or stolen card : Waived,"Penalty applicable for over-limit : 3% of the amount over limit, subject to a minimum of Rs.500",Auto-debit reversal or fee involved in cheque return or dishonour : Rs.300,"rewards-type : Rewards, Travel, Lifestyle"
-Axis My Zone Credit Card,Axis,Visa,500,,"Rs.500 (waived off on spends of Rs.5,000 within 45 days of the card issuance)",3.90% per month,"2.5% of the transaction amount or Rs.250, whichever is higher",,3.5% of the transaction value,,Cheque return or auto-debit reversal fee : Rs.300,Over limit penalty fee : 3% of the over-limit amount or Rs.500,Cash payment fee : Rs.100,Duplicate statement fee : NIL,"rewards-type : Rewards, Lifestyle, Fuel, Travel",Type of Charge : Amount,Add-on card fee : NIL,"Late payment fee : If the statement balance is 
+",Axis,Visa,3000,,,2.95% per month,,Rs.100,3.50% of the transacted amount,1% of the paid amount,Surcharge on railway tickets : Dictated by IRCTC,Re-issuing or replacement of card : Nil,"rewards-type : Premium, Travel, Rewards, Lifestyle",Charges involved : Size of the charges,Dishonour fee or cheque bounce : Rs.300,Alerts on registered mobile number or balance enquiry : Nil
+Axis Bank Privilege Credit Card,Axis,Master,1500,,Rs.1500 (NIL for Priority Customers),2.95% per month,,Rs.100,3.50% of the transacted amount,1% of the amount,Re-issuing or replacement of card : NIL,Over limit penalty : Rs.500 or 3% of the over limit amount (whichever is higher),Charges involved : Amount,Dishonour fee or cheque bounce : Rs.300,"rewards-type : Rewards, Lifestyle, Fuel, Travel"
+Axis Bank Vistara Credit Card | 15% Discount |Check Lounge Access & Limit,Axis,Visa,1500,,"Rs.1,500",2.95% per month (41.75% p.a.),,"2.5% of the amount withdrawn, subject to a minimum of Rs.250",3.5% of the transacted amount,,Outstation cheque : Waived,Re-issuing or replacement of lost or stolen card : Waived,"Penalty applicable for over-limit : 3% of the amount over limit, subject to a minimum of Rs.500",Copy request or chargeslip retrieval : Waived,Joining fee (add-on cardholder) : Nil,Annual fee from year-2 onwards (add-on cardholder) : Nil,Fee incurred for cash payments : Rs.100,Auto-debit reversal or fee involved in cheque return or dishonour : Rs.300,"rewards-type : Rewards, Travel, Lifestyle"
+Axis My Zone Credit Card,Axis,Visa,500,,"Rs.500 (waived off on spends of Rs.5,000 within 45 days of the card issuance)",3.90% per month,"2.5% of the transaction amount or Rs.250, whichever is higher",,3.5% of the transaction value,,Over limit penalty fee : 3% of the over-limit amount or Rs.500,Cheque return or auto-debit reversal fee : Rs.300,Add-on card fee : NIL,Cash payment fee : Rs.100,Duplicate statement fee : NIL,"Late payment fee : If the statement balance is 
 Up to Rs.100 – NIL
 Rs.101 to Rs.300 – Rs.100
 Rs.301 to Rs.1,000 – Rs.300
 Rs.1,001 to Rs.5,000 – Rs.500
 Rs.5,001 to Rs.20,000 – Rs.600
 Rs.20,001 and above – Rs.700
-"
-Axis Bank Neo Credit Card,Axis,Visa,250,,Rs.500,3.9% per month,,3.25% per month,3.5% of the transaction amount,,Cash withdrawal fees : 2.5% or a minimum of Rs.250 of the amount withdrawn,Hotlisting charges : NIL,Cash Payment Fee : Rs.100,Over limit penalty : 3% or a minimum of Rs.500 of the over limit amount.,Type of fee  : Amount,"Late payment charges : Nil when the total due is up to Rs.100
+",Type of Charge : Amount,"rewards-type : Rewards, Lifestyle, Fuel, Travel"
+Axis Bank Neo Credit Card,Axis,Visa,250,,Rs.500,3.9% per month,,3.25% per month,3.5% of the transaction amount,,Hotlisting charges : NIL,Over limit penalty : 3% or a minimum of Rs.500 of the over limit amount.,"rewards-type : Lifestyle, Rewards",Type of fee  : Amount,Card replacement fee : Waived,"Late payment charges : Nil when the total due is up to Rs.100
 Rs.100 if itis between Rs.101 - Rs.300
 Rs.300 if it is between Rs.301 and Rs.1000
 Rs.500 if it is between Rs.1,001 - Rs.5,000
 Rs.600 if it is between Rs.5,001 - Rs.20,000
 Rs.700 if it is Rs.20,001 and above
-",Card replacement fee : Waived,"rewards-type : Lifestyle, Rewards"
-Axis Bank Buzz Credit Card – 10% Discount on Flipkart,Axis,Master,750,,Rs.750,,,3.25% per month,3.50% of the transaction amount,,"rewards-type : Lifestyle, Rewards",Add-on card fee : Nil,Card replacement fee : Waived,Duplicate statement fee : Waived,Hot listing fee : NIL,Balance inquiry fee : Waived,"Penalty on over-limit : 3% of the over-limit amount, subject to a minimum of Rs.500",Outstation cheque fee : Waived,Type of charge : Amount,"Cash withdrawal fees : 2.5% of the transaction amount, subject to a minimum of Rs.250",Cheque return fee : Rs.300,"Finance charges on overdue credit : 3.25% per month
+",Cash Payment Fee : Rs.100
+Axis Bank Buzz Credit Card – 10% Discount on Flipkart,Axis,Master,750,,Rs.750,,,3.25% per month,3.50% of the transaction amount,,Hot listing fee : NIL,Cheque return fee : Rs.300,Balance inquiry fee : Waived,"Finance charges on overdue credit : 3.25% per month
 
-",Cash payment fee at the branch : Rs.100
+",Add-on card fee : Nil,Cash payment fee at the branch : Rs.100,Duplicate statement fee : Waived,"Penalty on over-limit : 3% of the over-limit amount, subject to a minimum of Rs.500",Type of charge : Amount,Card replacement fee : Waived,Outstation cheque fee : Waived,"rewards-type : Lifestyle, Rewards"
 Axis Bank Miles and More Credit Card ,Axis,Master,3500,,"World Select Credit Card – Rs.10,000
 World Credit Card – Rs.3,500
-",2.95% every month,2.5% (minimum Rs.250) of the amount,,3.50% of the total transaction value,,Cash payment fee : Rs.100,Penalty for over limit : 3% of the over limit amount (minimum of Rs.500),Mobile alerts for the transactions : Waived off,Types of charges : Amount,Joining fee for the add-on card : Nil,Annual fee for the add-on card : Nil,Copy request fee or charge slip retrieval fee : NIL,Fee for outstation cheque : Waived off,Charges for balance enquiry : Waived off,"Replacement of card (stolen, re-issued or lost) : NIL",Auto-debit reversal or cheque return or dishonour fee  : Rs.300,"Late payment fee or overdue penalty : If the total payment due is 
+",2.95% every month,2.5% (minimum Rs.250) of the amount,,3.50% of the total transaction value,,"Late payment fee or overdue penalty : If the total payment due is 
 Up to Rs.2,000 – Rs.300
 Between Rs.2,001 and Rs.5,000 - Rs.400
 Rs.5,001 or more - Rs.600
-","rewards-type : Rewards, Premium, Travel, Fuel"
-Axis Bank MY Business Credit Card ,Axis,Visa,999,,,,,,,,rewards-type : 
-Axis Bank Signature Credit Card with Travel Benefits,Axis,,1500,,,,,,,,rewards-type : Travel
-Axis Bank Insta Easy Credit Card ,Axis,,Nil,,,,,,,,rewards-type : 
+",Charges for balance enquiry : Waived off,Types of charges : Amount,Annual fee for the add-on card : Nil,"Replacement of card (stolen, re-issued or lost) : NIL",Cash payment fee : Rs.100,Copy request fee or charge slip retrieval fee : NIL,Joining fee for the add-on card : Nil,Penalty for over limit : 3% of the over limit amount (minimum of Rs.500),"rewards-type : Rewards, Premium, Travel, Fuel",Fee for outstation cheque : Waived off,Auto-debit reversal or cheque return or dishonour fee  : Rs.300,Mobile alerts for the transactions : Waived off
+Axis Bank MY Business Credit Card ,Axis,Visa,999,,Rs.999,,,,,,Description  : Amount ,rewards-type : ,Overlimit Fee : 3% of the over limit amount (Min.of Rs.500)
+Axis Bank Signature Credit Card with Travel Benefits,Axis,,1500,,,,,,3.50% of the transaction value,,Charge of Mobile Alerts for Transactions : Waived,Add-on customer&rsquo;s charge for Priority Pass Program Membership : USD 99,Cash Payment Fee : 2.5% (Min. Rs 250) of the Cash Amount,"Card Replacement Fee if stolen, lost or re-issue : Waived","Emergency Card Replacement Fee, when overseas, through VISA : As per VISA Global Customer Assistance Services (GCAS)",Charges for Hotlisting : Waived,"Late Payment Fee or Overdue Penalty : &bull; If Total Payment Due is up to Rs. 2000, the fee will be Rs. 300&bull; If Total Payment Due is between Rs. 2001 - Rs. 5000, fee will be Rs. 400&bull; If Total Payment Due is Rs. 5001 or more, fee will be Rs. 600",Outstation Cheque Fee : Waived,"Fuel Transaction Surcharge : Rs. 10 or 2.5% of transaction amount, whichever is higher (Refunded for fuel transactions between Rs. 400 and Rs. 4000)",Standard sign-up fee : 5000 (3000 on special invite),Cash Withdrawal Fees : 2.5% (Min. Rs 250) of the Cash Amount,Fee for Duplicate Statement : Waived,Annual fee of Add-on Card : Nil,Finance Charges for Retail Purchases &amp; Cash : 41.75% annually (2.95% per month),Over limit Penalty : 3% of the over limit amount (Minimum Rs. 500),Charges : Signature Credit card with Travel Benefits,Joining fee of Add-on Card : Nil,Primary Card holder&rsquo;s charge for Priority Pass Program Membership : Free,Copy Request Fee or Charge slip Retrieval Fee : Waived,Charges for balance enquiry : Waived,rewards-type : Travel
+Axis Bank Insta Easy Credit Card ,Axis,,Nil,,"Rs. 500 (it will be reversed if you spend Rs. 5,000 within 45 days of getting the card)",,,2.5 percent of the amount withdrawn (Minimum Rs 250),3.50 percent of the value of the transaction,,Finance Charges (Cash and Retail transactions : 2.50 percent per month or 34.49 percent p.a.,Fee for Duplicate Statement : None,Over limit fee : 3 percent of the over limit amount (Minimum Rs 500),Type of Fee : Amount charged,Add-on Card or Supplementary Card Joining Fee : None,Annual Fee for Supplementary or Add-on Card : None,Charges for Hotlisting : None,Cash Payment Fee : Rs 100,Cheque return Fee or Auto-debit reversal fee due to insufficient Funds : Rs 300,Balance Enquiry : None,rewards-type : ,Fee for Outstation Cheque : None
 Axis Bank My Choice Credit Card,Axis,,Nil,,,,,,,,rewards-type : 
-Axis Bank Titanium Smart Traveler Credit Card – Offers,Axis,,Nil,,,,,,,,rewards-type : Travel
-JetPrivilege HDFC Bank Diners Club Credit Card,HDFC,Diners Club International,10000,,,,,,,,Cash processing fee  : Rs.100 ,"Outstation cheque processing charge  : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50 ",Payment return charges  : 2% of payment amount (minimum Rs.450) ,"Annual fee  : Rs.5,000 ",Cash withdrawal fee  : 2.5% of the withdrawn amount (Minimum Rs.500) ,Over limit charges  : 2.5% of the over-limit amount (minimum Rs.500) ,"Reissue of lost, stolen or damaged card  : Rs.100 ",Foreign currency transaction fee  : 3.5% ,"Joining fee  : Rs.10,000 ",Interest rate  : 1.99% per month ,"rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel",Rewards redemption fee  : Waived off 
-HDFC Regalia Credit Card ,HDFC,Visa,2500,,,,,,,,Charges for cash advance : 2.5% of the withdrawn amount subject to a minimum of or Rs.500,Payment return charges : 2% of the payment amount subject to a minimum amount of Rs.450,Fee for cash processing : Rs.100,"Processing charge for Cheque (outstation) : Rs.25 for Cheque value of Rs.5,000. If the Cheque value is above Rs.5,000 then the fee is Rs.50",Foreign currency transactions : 2%,"Renewal membership fee : Rs.2,500 + taxes",Limit on cash advance : 40% of the total credit limit,Revolving credit charges : 3.49% per month or 41.88% per annum,Fee for Rewards redemption : Rs.99 for every redemption request,"rewards-type : Premium, Travel, Rewards, Lifestyle, Fuel","Processing charges for balance transfer : Rs.250 or 1% of the balance transfer amount, whichever is higher",Fee for purchase of Railway tickets : 1.8% of the transaction amount + GST,"First year membership fee : Rs.2,500 + taxes",Fee for additional card : NIL,Overlimit account charges : 2.5% of the overlimit amount subject to a minimum amount of Rs.500
-HDFC Bank Diners Club Black Credit Card ,HDFC,Diners Club International,5000,,,,,,,,"Joining fee  : Rs.10,000 ",Add-on cards charges : NIL,Cash processing fee : Rs.100 per transaction,Payment return charges : 2% of the payment amount (Minimum of Rs.450),Interest rate : 1.99% per month ,Cash withdrawal fee  : 2.5% of the withdrawn amount (Minimum Rs.500),Rewards redemption fee : NIL ,Over limit charges : 2.5% of the over the limit amount (Min. of Rs.500),"Renewal fee : Rs.5,000 ",Foreign currency mark-up fee  : 2%,Card re-issuance charges  : Rs.100 per instance ,"rewards-type : Premium, Rewards, Lifestyle, Travel, Fuel"
-HDFC Business Regalia Credit Card | HDFC Credit Cards,HDFC,Visa,2500,,,,,,,,Add-on card fee : NIL,Interest-Free Period : Up to 50 days,"Cash Advance Charges : Rs.500 or 2.5% of withdrawn amount, whichever is higher",Fee for outstation cheque processing : Up to Rs.50,"Over Limit Charges : 2.5% of over limit amount, subject to a minimum of Rs.500",Minimum Amount Due : 5% or Rs.200,Cash Advance Limit : 40% of the credit limit,Interest Charges : 3.49% per month,Rewards Redemption Fee : Rs.99 per request,"rewards-type : Rewards, Premium, Travel, Fuel, Lifestyle",Cash Processing Fee : Rs.100,Card Re-issuance Fee : Rs.100
-HDFC Regalia First Credit Card,HDFC,Visa,1000,,,,,,,,Rewards redemption fee  : Rs.99 for every redemption request ,Payment return charges  : 2% of the payment amount subject to a minimum amount of Rs.450. ,Cash processing fee  : Rs.100 ,"rewards-type : Rewards, Lifestyle, Travel, Fuel","Joining fee  : Rs.1,000 ","Annual fee  : Rs.1,000 ",Cash withdrawal fee  : 2.5% of the withdrawn amount subject to a minimum of or Rs.500 ,Fee for additional card  : NIL ,Card re-issuance charges  : Rs.100 ,Foreign currency transaction fee  : 2% ,Over limit charges  : 2.5% of the over limit amount subject to a minimum amount of Rs.500. ,Interest rate  : 3.49% per month 
-HDFC Diners ClubMiles Card,HDFC,Diners Club International,1000,,,,,,,,Cash processing fee  : Rs.100 ,Over limit charges  : 2.5% of the over-limit amount (minimum Rs.500) ,Payment return charges  : 2% of payment amount (minimum Rs.450) ,Interest rate  : 3.49% per month ,Foreign currency transaction fee  : 3.5% ,"Joining fee  : Rs.1,000 ","Annual fee  : Rs.1,000 ","rewards-type : Rewards, Travel, Premium, Lifestyle, Fuel",Cash withdrawal fee  : 2.5% of the withdrawn amount or Rs.500 ,Rewards redemption fee  : Rs.99 ,"Reissue of lost, stolen or damaged card  : Rs.100 "
-HDFC Business MoneyBack Credit Card | HDFC Credit Cards,HDFC,Visa,500,,,,,,,,Cash Processing Fee : Rs.100,"rewards-type : Rewards, Fuel, Lifestyle",Minimum Amount Due : 5% or Rs.200,Card Re-issuance Fee : Rs.100,Cash Withdrawal Limit : 40% of the credit limit,Add-on card fee : NIL,Interest Charges : 3.49% per month or 41.88% per annum,"Over Limit Charges : 2.5% of over limit amount, subject to minimum of Rs.500",Rewards Redemption Fee : Rs.99 per request,Interest-Free Period : Max. 50 days,"Cash Withdrawal Charges : 2.5% of withdrawn amount or Rs.500, whichever is higher",Outstation Cheque Processing Fee : Up to Rs.50
-HDFC Bank MoneyBack Credit Card ,HDFC,Master,500,,Rs.500,,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Interest rate  : 3.49% per month,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),Payment return charges : 2% of payment amount (minimum Rs.450),Rewards redemption fee : Rs.99 per request,"rewards-type : Rewards, Lifestyle, Fuel","Reissue of lost, stolen or damaged card : Rs.100","Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50",Cash advance limit : 40% of the credit limit,Cash processing fee : Rs.100
-HDFC Bank Titanium Times Credit Card ,HDFC,Master,500,,Rs.500,,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Payment return charges : 2% of payment amount (minimum Rs.450),Cash advance limit : 40% of the credit limit,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50","Reissue of lost, stolen or damaged card : Rs.100",Interest rate : 3.49% per month,Rewards redemption fee : Rs.99 per request,Cash processing fee : Rs.100,"rewards-type : Lifestyle, Rewards, Fuel, Travel"
-HDFC Bank Platinum Times Credit Card ,HDFC,Master,1000,,"Rs.1,000",,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Interest rate : 3.49% per month,"Reissue of lost, stolen or damaged card : Rs.100",Payment return charges : 2% of payment amount (minimum Rs.450),Rewards redemption fee : Rs.99 per request,"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50",Cash processing fee : Rs.100,Cash advance limit : 40% of the credit limit,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),"rewards-type : Lifestyle, Rewards, Fuel, Travel"
-HDFC Bank Snapdeal Credit Card ,HDFC,Visa,500,,Rs.500,,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50",Cash advance limit : 40% of the credit limit,Payment return charges : 2% of payment amount (minimum Rs.450),Interest rate  : 3.49% per month,Rewards redemption fee : Rs.99 per request,"Reissue of lost, stolen or damaged card : Rs.100","rewards-type : Rewards, Lifestyle, Fuel",Cash processing fee : Rs.100,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500)
-HDFC Bank Solitaire Credit Card ,HDFC,,500,,Rs.500,,2.5% of the withdrawal amount or a minimum of Rs.500,,,,Interest rates : 3.49% per month,Reward redemption fee : Rs.99 per redemption,Over credit limit fee : 2.5% on the amount the over limit amount. The minimum will be Rs.500. ,Railway ticket booking surcharge : 1.8% of the transaction value,Re-issue of the card : Rs.100,Cash payment fee : Rs.100 per deposit,rewards-type : Premium
-Kotak Bank Royale Signature Credit Card ,Kotak Mahindra,Visa,0,,,,,,,,Joining fee (free variant) : NIL,"ATM cash withdrawal fee, call-a-draft fee, and find transfer fee : Rs.300",Add-on card fee : NIL,Over limit charges : Rs.500,Credit card bill payment at bank branches : Rs.100,Reissue or replacement of the card : Rs.100,Interest Charges : 3.40% per month or 37.2% per annum,Annual fee (paid variant) : Rs.999,Foreign currency mark-up : 3.50%,"Joining fee (paid variant) : Rs.1,499",Annual fee (free variant) : Rs.999,Card replacement charges : Rs.100,Cheque return charges : Rs.500,To get a copy of Credit Information Report (CIBIL) : Rs.50,"rewards-type : Rewards, Travel, Fuel, Lifestyle"
-Kotak Bank PVR Platinum Credit Card ,Kotak Mahindra,Visa,999,,NIL,,,,,,Foreign currency markup fee : 3.5% of the transaction amount,Cheque bounce charges : Rs.500,"rewards-type : Lifestyle, Rewards",Add-on card fees : Rs.299 per add-on card,Cash payment at bank fee : Rs.100,Outstation cheque processing fee : NIL,Card replacement (Reissue) fee : Rs.100,Rate of interest : 3.5%,Over-limit charge : Rs.500,Furnishing a copy of Credit Information Report (CIBIL) : Rs.50
+Axis Bank Titanium Smart Traveler Credit Card – Offers,Axis,,Nil,,"Rs. 250 (it is waived if you spend Rs. 5,000 within 45 days of receiving the card)",,,2 percent of the amount withdrawn (Minimum Rs 250),3.50 percent of the value of the transaction,,Fee for Duplicate Statement : None,Cash Payment Fee : Rs 100,Mobile Alerts : None,Over limit fee : 3 percent of the over limit amount (Minimum Rs 500),Balance Enquiry : None,Finance Charges for Retail &amp; Cash transactions : 3.25 percent per month or 46.78 percent p.a.,Fee for Outstation Cheque : Nil,Add-on Card or Supplementary Card Joining Fee : Rs 100,Annual Fee for Supplementary or Add-on Card : None,rewards-type : Travel,Fee Type : Amount
+JetPrivilege HDFC Bank Diners Club Credit Card,HDFC,Diners Club International,10000,,,,,,,,Interest rate  : 1.99% per month ,Cash processing fee  : Rs.100 ,"Joining fee  : Rs.10,000 ","Outstation cheque processing charge  : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50 ",Foreign currency transaction fee  : 3.5% ,Payment return charges  : 2% of payment amount (minimum Rs.450) ,"Annual fee  : Rs.5,000 ",Cash withdrawal fee  : 2.5% of the withdrawn amount (Minimum Rs.500) ,Rewards redemption fee  : Waived off ,"rewards-type : Travel, Premium, Rewards, Lifestyle, Fuel",Over limit charges  : 2.5% of the over-limit amount (minimum Rs.500) ,"Reissue of lost, stolen or damaged card  : Rs.100 "
+HDFC Regalia Credit Card ,HDFC,Visa,2500,,,,,,,,"First year membership fee : Rs.2,500 + taxes","Renewal membership fee : Rs.2,500 + taxes",Fee for additional card : NIL,Charges for cash advance : 2.5% of the withdrawn amount subject to a minimum of or Rs.500,"Processing charge for Cheque (outstation) : Rs.25 for Cheque value of Rs.5,000. If the Cheque value is above Rs.5,000 then the fee is Rs.50",Foreign currency transactions : 2%,Revolving credit charges : 3.49% per month or 41.88% per annum,Fee for Rewards redemption : Rs.99 for every redemption request,Payment return charges : 2% of the payment amount subject to a minimum amount of Rs.450,Fee for cash processing : Rs.100,Fee for purchase of Railway tickets : 1.8% of the transaction amount + GST,"rewards-type : Premium, Travel, Rewards, Lifestyle, Fuel",Limit on cash advance : 40% of the total credit limit,Overlimit account charges : 2.5% of the overlimit amount subject to a minimum amount of Rs.500,"Processing charges for balance transfer : Rs.250 or 1% of the balance transfer amount, whichever is higher"
+HDFC Bank Diners Club Black Credit Card ,HDFC,Diners Club International,5000,,,1.99% per month ,,,,,Payment return charges : 2% of the payment amount (Minimum of Rs.450),Over limit charges : 2.5% of the over the limit amount (Min. of Rs.500),Cash processing fee : Rs.100 per transaction,"Joining fee  : Rs.10,000 ",Rewards redemption fee : NIL ,"Renewal fee : Rs.5,000 ",Card re-issuance charges  : Rs.100 per instance ,"rewards-type : Premium, Rewards, Lifestyle, Travel, Fuel",Cash withdrawal fee  : 2.5% of the withdrawn amount (Minimum Rs.500),Add-on cards charges : NIL,Foreign currency mark-up fee  : 2%
+HDFC Business Regalia Credit Card | HDFC Credit Cards,HDFC,Visa,2500,,,3.49% per month,,,,,Cash Processing Fee : Rs.100,Fee for outstation cheque processing : Up to Rs.50,Minimum Amount Due : 5% or Rs.200,Add-on card fee : NIL,Rewards Redemption Fee : Rs.99 per request,Cash Advance Limit : 40% of the credit limit,Interest-Free Period : Up to 50 days,"Cash Advance Charges : Rs.500 or 2.5% of withdrawn amount, whichever is higher",Card Re-issuance Fee : Rs.100,"Over Limit Charges : 2.5% of over limit amount, subject to a minimum of Rs.500","rewards-type : Rewards, Premium, Travel, Fuel, Lifestyle"
+HDFC Regalia First Credit Card,HDFC,Visa,1000,,"Rs.1,000 ",,,2.5% of the withdrawn amount subject to a minimum of or Rs.500 ,2% ,,Payment return charges  : 2% of the payment amount subject to a minimum amount of Rs.450. ,Cash processing fee  : Rs.100 ,"Annual fee  : Rs.1,000 ","rewards-type : Rewards, Lifestyle, Travel, Fuel",Interest rate  : 3.49% per month ,Fee for additional card  : NIL ,Over limit charges  : 2.5% of the over limit amount subject to a minimum amount of Rs.500. ,Rewards redemption fee  : Rs.99 for every redemption request ,Card re-issuance charges  : Rs.100 
+HDFC Diners ClubMiles Card,HDFC,Diners Club International,1000,,,,,,,,Over limit charges  : 2.5% of the over-limit amount (minimum Rs.500) ,"rewards-type : Rewards, Travel, Premium, Lifestyle, Fuel","Annual fee  : Rs.1,000 ",Cash withdrawal fee  : 2.5% of the withdrawn amount or Rs.500 ,Payment return charges  : 2% of payment amount (minimum Rs.450) ,"Joining fee  : Rs.1,000 ",Interest rate  : 3.49% per month ,Rewards redemption fee  : Rs.99 ,Cash processing fee  : Rs.100 ,"Reissue of lost, stolen or damaged card  : Rs.100 ",Foreign currency transaction fee  : 3.5% 
+HDFC Business MoneyBack Credit Card | HDFC Credit Cards,HDFC,Visa,500,,,3.49% per month or 41.88% per annum,,,,,Minimum Amount Due : 5% or Rs.200,Cash Processing Fee : Rs.100,Interest-Free Period : Max. 50 days,"Over Limit Charges : 2.5% of over limit amount, subject to minimum of Rs.500",Cash Withdrawal Limit : 40% of the credit limit,"Cash Withdrawal Charges : 2.5% of withdrawn amount or Rs.500, whichever is higher",Rewards Redemption Fee : Rs.99 per request,Outstation Cheque Processing Fee : Up to Rs.50,Add-on card fee : NIL,Card Re-issuance Fee : Rs.100,"rewards-type : Rewards, Fuel, Lifestyle"
+HDFC Bank MoneyBack Credit Card ,HDFC,Master,500,,Rs.500,,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Cash advance limit : 40% of the credit limit,Payment return charges : 2% of payment amount (minimum Rs.450),"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50","rewards-type : Rewards, Lifestyle, Fuel",Interest rate  : 3.49% per month,Rewards redemption fee : Rs.99 per request,"Reissue of lost, stolen or damaged card : Rs.100",Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),Cash processing fee : Rs.100
+HDFC Bank Titanium Times Credit Card ,HDFC,Master,500,,Rs.500,3.49% per month,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Cash processing fee : Rs.100,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),Payment return charges : 2% of payment amount (minimum Rs.450),"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50","Reissue of lost, stolen or damaged card : Rs.100",Cash advance limit : 40% of the credit limit,Rewards redemption fee : Rs.99 per request,"rewards-type : Lifestyle, Rewards, Fuel, Travel"
+HDFC Bank Platinum Times Credit Card ,HDFC,Master,1000,,"Rs.1,000",3.49% per month,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Cash processing fee : Rs.100,"Reissue of lost, stolen or damaged card : Rs.100",Rewards redemption fee : Rs.99 per request,"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50",Cash advance limit : 40% of the credit limit,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),Payment return charges : 2% of payment amount (minimum Rs.450),"rewards-type : Lifestyle, Rewards, Fuel, Travel"
+HDFC Bank Snapdeal Credit Card ,HDFC,Visa,500,,Rs.500,,2.5% of the withdrawn amount (Minimum Rs.500),,3.5%,,Cash advance limit : 40% of the credit limit,"Outstation cheque processing charge : Cheque value of up to Rs.5,000 – Rs.25 Cheque value of more than Rs.5,000 – Rs.50",Cash processing fee : Rs.100,Payment return charges : 2% of payment amount (minimum Rs.450),"rewards-type : Rewards, Lifestyle, Fuel",Interest rate  : 3.49% per month,Over limit charges : 2.5% of the over-limit amount (minimum Rs.500),Rewards redemption fee : Rs.99 per request,"Reissue of lost, stolen or damaged card : Rs.100"
+HDFC Bank Solitaire Credit Card ,HDFC,,500,,Rs.500,,2.5% of the withdrawal amount or a minimum of Rs.500,,,,Reward redemption fee : Rs.99 per redemption,rewards-type : Premium,Over credit limit fee : 2.5% on the amount the over limit amount. The minimum will be Rs.500. ,Railway ticket booking surcharge : 1.8% of the transaction value,Cash payment fee : Rs.100 per deposit,Interest rates : 3.49% per month,Re-issue of the card : Rs.100
+Kotak Bank Royale Signature Credit Card ,Kotak Mahindra,Visa,0,,NIL,3.40% per month or 37.2% per annum,Rs.300,,3.50%,,Annual fee (paid variant) : Rs.999,Annual fee (free variant) : Rs.999,Card replacement charges : Rs.100,Add-on card fee : NIL,Credit card bill payment at bank branches : Rs.100,"rewards-type : Rewards, Travel, Fuel, Lifestyle",Cheque return charges : Rs.500,To get a copy of Credit Information Report (CIBIL) : Rs.50,Over limit charges : Rs.500,Reissue or replacement of the card : Rs.100
+Kotak Bank PVR Platinum Credit Card ,Kotak Mahindra,Visa,999,,NIL,3.5%,,,3.5% of the transaction amount,,Over-limit charge : Rs.500,Add-on card fees : Rs.299 per add-on card,Outstation cheque processing fee : NIL,"rewards-type : Lifestyle, Rewards",Furnishing a copy of Credit Information Report (CIBIL) : Rs.50,Cash payment at bank fee : Rs.100,Card replacement (Reissue) fee : Rs.100,Cheque bounce charges : Rs.500
 "Kotak Bank Essentia Platinum Credit Card | 6 free PVR tickets | 10% Off On Groceries
-",Kotak Mahindra,Visa,1499,,"Rs.1,499",,,,,,Interest charges on outstanding balances : 3.50% per month,Add on card charges : Rs.299 per card,"Cash withdrawal fee per Rs.10,000 or part thereof : Rs.300",Fee for cash payment at a branch of the bank : Rs.100,Reissue or replacement of the card : Rs.100 (per issuance),Over limit fee : Rs.500,Furnishing a copy of CIBIL : Rs.50,"rewards-type : Lifestyle, Rewards"
-Kotak PVR Gold Credit Card ,Kotak Mahindra,Visa,499,,Nil,,,,,,Interest on pending dues on the card : 3.50%,Foreign currency mark-up charges : 3.5%,Providing a CIBIL report : Rs.50,"Cash advance per Rs.10,000 or part thereof : Rs.300"," > Rs.10,000 : Rs.700","rewards-type : Lifestyle, Rewards","Rs.500-Rs.10,000 : Rs.500",Charges for over-limit : Rs.500,Penalty for cheque bounce : Rs.500,Charges for reissuing of the card : Rs.100,Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),Fees related to cash payments at the bank : Rs.100
-Kotak Bank Delight Platinum Credit Card ,Kotak Mahindra,Visa,1999,,"Rs.1,999",,,,,,Fees related to cash payments at the bank : Rs.100,"rewards-type : Lifestyle, Rewards",Interest on pending dues on the card : 3.40%," > Rs.10,000 : Rs.700",Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),Foreign Currency mark-up charges : 3.5%,"Rs.500.01-Rs.10,000 : Rs.500",Charges for Over-limit : Rs.500,Penalty for Cheque Bounce : Rs.500,Charges for reissuing of the card : Rs.100,Providing a CIBIL report : Rs.50
-Kotak Bank Privy League Visa Signature Credit Card,Kotak Mahindra,,5000,,,,,,,,"rewards-type : Premium, LifeStyle"
-SBI SimplySAVE Credit Card,SBI Cards,Visa,499,,Rs.499,,,,3.5% of the transaction amount,,"Late payment fee : Total amount due Rs.0 to Rs.200 – NIL
+",Kotak Mahindra,Visa,1499,,"Rs.1,499",,,,,,Over limit fee : Rs.500,Interest charges on outstanding balances : 3.50% per month,"Cash withdrawal fee per Rs.10,000 or part thereof : Rs.300",Reissue or replacement of the card : Rs.100 (per issuance),"rewards-type : Lifestyle, Rewards",Add on card charges : Rs.299 per card,Furnishing a copy of CIBIL : Rs.50,Fee for cash payment at a branch of the bank : Rs.100
+Kotak PVR Gold Credit Card ,Kotak Mahindra,Visa,499,,Nil,3.50%,,,3.5%,,"Rs.500-Rs.10,000 : Rs.500",Charges for over-limit : Rs.500,"rewards-type : Lifestyle, Rewards","Cash advance per Rs.10,000 or part thereof : Rs.300",Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),"> Rs.10,000 : Rs.700",Providing a CIBIL report : Rs.50,Penalty for cheque bounce : Rs.500,Fees related to cash payments at the bank : Rs.100,Charges for reissuing of the card : Rs.100
+Kotak Bank Delight Platinum Credit Card ,Kotak Mahindra,Visa,1999,,"Rs.1,999",3.40%,,,3.5%,,Penalty for Cheque Bounce : Rs.500,"Rs.500.01-Rs.10,000 : Rs.500","> Rs.10,000 : Rs.700",Charges for Over-limit : Rs.500,Fees related to cash payments at the bank : Rs.100,Providing a CIBIL report : Rs.50,Charges for reissuing of the card : Rs.100,Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),"rewards-type : Lifestyle, Rewards"
+Kotak Bank Privy League Visa Signature Credit Card,Kotak Mahindra,,5000,,The card is available in two variants with a joining fee of Rs.7500 and Rs.5000 respectively.,2.49%,,,3.50%,,Cash Withdrawal and Fund Transfer Charges : Rs.300,"rewards-type : Premium, LifeStyle",Late Payment Charges : Rs.100 to Rs.700 depending on the pending amount.,Over Limit Charges : Rs.500,Lost and Damaged card replacement fee : Rs.100
+SBI SimplySAVE Credit Card,SBI Cards,Visa,499,,Rs.499,Up to 3.35% per month,,,3.5% of the transaction amount,,"Late payment fee : Total amount due Rs.0 to Rs.200 – NIL
 Rs.201 to Rs.500 – Rs.100
 Rs.501 to Rs.1,000 – Rs.400
 Rs.1,001 to Rs.10,000 – Rs.600
 Rs.10,001 to Rs.25,000 – Rs.800
 Rs.25,001 and above – Rs.950
-",Statement retrieval fee : Rs.100 per statement,Card replacement charge : Rs.100,Payment dishonor fee : 2% of the payment amount or Rs.450,"rewards-type : Rewards, Lifestyle, Fuel",Interest rate : Up to 3.35% per month,Rewards redemption fee : Rs.99 per request,Over-limit fee : 2.5% of the over-limit amount or Rs.500
-Yatra SBI Credit Card ,SBI Cards,Master,499,,,,,,,,Rewards redemption fee  : Rs.99,Annual fee  : Rs.499,Interest rate : 3.35% per month,Cash payment fee : Rs.100,"Cheque fee : Rs.100 (for payments up to Rs.10,000)",Fee for Payment Dishonour  : 2% of the transaction amount,Transaction for Foreign Currency  : 3.5% of the transaction amount ,Retrieval of Statement  : Rs.100 per statement ,Over-limit  : 2.5% for a minimum amount of Rs.500 ,Charge for Card Replacement  : Rs.100,"Fee for Late Payment   : Nil: Rs.0-Rs.200
+",Statement retrieval fee : Rs.100 per statement,Card replacement charge : Rs.100,"rewards-type : Rewards, Lifestyle, Fuel",Rewards redemption fee : Rs.99 per request,Payment dishonor fee : 2% of the payment amount or Rs.450,Over-limit fee : 2.5% of the over-limit amount or Rs.500
+Yatra SBI Credit Card ,SBI Cards,Master,499,,,3.35% per month,,,3.5% of the transaction amount ,,Renewal fee : Rs.499 (from second year),Finance charges for Cash Advance : 3.35% per month,"Cheque fee : Rs.100 (for payments up to Rs.10,000)",Fee for Payment Dishonour  : 2% of the transaction amount,Annual fee  : Rs.499,Cash payment fee : Rs.100,Add-on fee : Nil ,Retrieval of Statement  : Rs.100 per statement ,Over-limit  : 2.5% for a minimum amount of Rs.500 ,Rewards redemption fee  : Rs.99,Type of fees and charges : Amount,Charge for Card Replacement  : Rs.100,"Fee for Late Payment   : Nil: Rs.0-Rs.200
 Rs.100: Rs.201-Rs.500
 Rs.400: Rs.501-Rs.1,000
 Rs.600: Rs.1,001-Rs.10,000
 Rs.800: Rs.10,001-Rs.25,000
 Rs.950: Above Rs.25,000
-","rewards-type : Travel, Rewards, Fuel",Type of fees and charges : Amount,Renewal fee : Rs.499 (from second year),Add-on fee : Nil ,Finance charges for Cash Advance : 3.35% per month
-SimplyClick SBI Card ,SBI Cards,Visa,499,,,,,,,,"rewards-type : Rewards, Lifestyle, Fuel","Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
+","rewards-type : Travel, Rewards, Fuel"
+SimplyClick SBI Card ,SBI Cards,Visa,499,,,,,,,,Joining fee  : Rs.499 ,Rewards redemption fee  : Rs.99 per request ,Payment dishonour fee  : 2% of the payment amount or Rs.450 ,Statement retrieval fee  : Rs.100 per statement ,Over-limit fee  : 2.5% of the over-limit amount or Rs.500 ,Card replacement charge  : Rs.100 ,"rewards-type : Rewards, Lifestyle, Fuel",Foreign currency transaction fee  : 3.5% of the transaction amount ,Type of fee or charge : Amount,Annual fee  : Rs.499 ,Interest rate  : Up to 3.35% per month ,"Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
 Rs.201 to Rs.500 – Rs.100 
 Rs.501 to Rs.1,000 – Rs.400 
 Rs.1,001 to Rs.10,000 – Rs.600 
 Rs.10,001 to Rs.25,000 – Rs.800 
 Rs.25,001 and above – Rs.950 
-",Foreign currency transaction fee  : 3.5% of the transaction amount ,Type of fee or charge : Amount,Over-limit fee  : 2.5% of the over-limit amount or Rs.500 ,Interest rate  : Up to 3.35% per month ,Rewards redemption fee  : Rs.99 per request ,Statement retrieval fee  : Rs.100 per statement ,Card replacement charge  : Rs.100 ,Joining fee  : Rs.499 ,Annual fee  : Rs.499 ,Payment dishonour fee  : 2% of the payment amount or Rs.450 
-SBI PRIME Card,SBI Cards,Visa,2999,,"Rs.2,999",,"2.5% of the withdrawn amount or Rs.300 (SBI ATMs)
+"
+SBI PRIME Card,SBI Cards,Visa,2999,,"Rs.2,999",Up to 3.35% per month,"2.5% of the withdrawn amount or Rs.300 (SBI ATMs)
 2.5% of the withdrawn amount or Rs.300 (International ATMs)
-",,,,Card replacement charge  : Rs.100 ,Charge Slip Retrieval : Rs.225 for each slip,Statement retrieval fee  : Rs.100 per statement older than 2 months,Over-limit fee  : 2.5% of the over-limit amount or Rs.500 ,Foreign currency transaction fee  : 3.5% of the transaction amount ,Payment dishonour fee : 2% of payment amount subject to a minimum amount of Rs.450,"rewards-type : Premium, Rewards, Lifestyle, Travel, Fuel","Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
+",,,,Statement retrieval fee  : Rs.100 per statement older than 2 months,Payment dishonour fee : 2% of payment amount subject to a minimum amount of Rs.450,Charge Slip Retrieval : Rs.225 for each slip,Payment dishonour fee  : 2% of the payment amount or Rs.450 ,"rewards-type : Premium, Rewards, Lifestyle, Travel, Fuel",Rewards redemption fee : Rs.99,Cash payment fee : Rs.100,Card replacement charge  : Rs.100 ,Cheque pickup fee : Rs.100,"Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
 Rs.201 to Rs.500 – Rs.100 
 Rs.501 to Rs.1,000 – Rs.400 
 Rs.1,001 to Rs.10,000 – Rs.600 
 Rs.10,001 to Rs.25,000 – Rs.800 
 Rs.25,001 and above – Rs.950 
 
-",Cash payment fee : Rs.100,Rewards redemption fee : Rs.99,Interest rate : Up to 3.35% per month,Payment dishonour fee  : 2% of the payment amount or Rs.450 ,Cheque pickup fee : Rs.100
-IRCTC SBI Platinum Credit Card ,SBI Cards,Visa,500,,,Up to 3.35% per month,,,,,Cash withdrawal fee - SBI or other domestic ATMs : 2.5% of the withdrawal amount or a minimum of Rs.300 per transaction,Card replacement charges : Rs.100 per replacement,"Cheque payment fee : Rs.100 (for payments up to Rs.10,000)","rewards-type : Travel, Rewards, Fuel",Renewal fee : Rs.300,Interest free credit period : 20 - 50 days (applicable only on retail purchases and on the contingency that all previous months' outstanding balance is paid),Minimum amount due : 5% of the total outstanding amount,Cash payment fee and SBI branch : Rs.100 per payment,Cash withdrawal fee - International ATMs : 3% of the withdrawal amount or a minimum of Rs.300 per transaction,Add-on fee (per annum) : NIL
-Fbb SBI STYLEUP Credit Card ,SBI Cards,,499,,Rs.499,,"SBI ATMs and other local ATMs - 2.5% of transaction amount or Rs.300, whichever is higher.
+",Over-limit fee  : 2.5% of the over-limit amount or Rs.500 ,Foreign currency transaction fee  : 3.5% of the transaction amount 
+IRCTC SBI Platinum Credit Card ,SBI Cards,Visa,500,,,Up to 3.35% per month,,,,,Renewal fee : Rs.300,Cash withdrawal fee - SBI or other domestic ATMs : 2.5% of the withdrawal amount or a minimum of Rs.300 per transaction,Cash withdrawal fee - International ATMs : 3% of the withdrawal amount or a minimum of Rs.300 per transaction,Card replacement charges : Rs.100 per replacement,Cash payment fee and SBI branch : Rs.100 per payment,"rewards-type : Travel, Rewards, Fuel",Interest free credit period : 20 - 50 days (applicable only on retail purchases and on the contingency that all previous months' outstanding balance is paid),Minimum amount due : 5% of the total outstanding amount,Add-on fee (per annum) : NIL,"Cheque payment fee : Rs.100 (for payments up to Rs.10,000)"
+Fbb SBI STYLEUP Credit Card ,SBI Cards,,499,,Rs.499,Up to 3.35% per month,"SBI ATMs and other local ATMs - 2.5% of transaction amount or Rs.300, whichever is higher.
 International ATMs - 3% of the transaction amount or Rs.300, whichever is higher.
-",,,,Foreign currency transaction : 3.5% conversion mark up,Over limit fee : 2.5% of the amount over limit subject to a minimum of Rs.500.,Over the counter cash payment fee : Rs.100,"Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
+",,3.5% conversion mark up,,Card replacement fee (India) : Rs.100,Cheque pickup fee : Rs.100,Emergency card replacement fee (overseas) : NIL,Statement request fee : Rs.100 per statement if it is more than 2 months old.,"Late payment fee  : Total amount due Rs.0 to Rs.200 – NIL 
 Rs.201 to Rs.500 – Rs.100 
 Rs.501 to Rs.1,000 – Rs.400 
 Rs.1,001 to Rs.10,000 – Rs.600 
 Rs.10,001 to Rs.25,000 – Rs.800 
 Rs.25,001 and above – Rs.950 
 
-",Emergency card replacement fee (overseas) : NIL,Cheque pickup fee : Rs.100,"rewards-type : Lifestyle, Rewards, Fuel",Rewards redemption fee : Rs.99,Statement request fee : Rs.100 per statement if it is more than 2 months old.,Interest rate : Up to 3.35% per month,Card replacement fee (India) : Rs.100
-Air India SBI Platinum Credit Card ,SBI Cards,Visa,1499,,,,,,,,"rewards-type : Travel, Rewards, Fuel"
-Air India SBI Signature Credit Card ,SBI Cards,Visa,4999,,,,,,3.5% of the transaction amount,,"Cheque payment fee : Rs.100 (For cheque payments up to Rs.10,000)","rewards-type : Premium, Travel, Rewards, Fuel",Rewards redemption fee : Rs.99. Nil for redemption on Air India Miles,Statement Retrieval fee : Rs.100 per statement (more than 2 months old),Over limit charges : 2.5% of the amount (minimum of Rs.500),Interest rate : Up to 3.35% per month,Cheque pickup : Rs.100,Cash payment fee : Rs.100,Payment dishonour fee : 2% of the payment amount (minimum of Rs.450,"Joining fee  : Rs.4,999"
-SBI ELITE Card ,SBI Cards,Visa,4999,,,,,,,,"rewards-type : Premium, Rewards, Travel, Lifestyle, Fuel"
+",Over limit fee : 2.5% of the amount over limit subject to a minimum of Rs.500.,"rewards-type : Lifestyle, Rewards, Fuel",Rewards redemption fee : Rs.99,Over the counter cash payment fee : Rs.100
+Air India SBI Platinum Credit Card ,SBI Cards,Visa,1499,,,,,,,,"Cash withdrawal charges 
+          : 2.5% of transaction amount or a minimum Rs.300 per transaction (SBI ATMs and other domestic ATMs) 
+            3% of the transaction amount or a minimum Rs.300 per transaction (International ATMs) 
+         ","Cheque pickup 
+          : Rs.100 
+         ","Joining fee  
+          : Rs.1,499 
+         ","Annual fee 
+          : Rs.1,499 per annum (from 2nd year onwards) 
+         ","Interest rate 
+          : Up to 3.35% per month 
+         ","Cash payment fee 
+          : Rs.100 
+         ","Rewards redemption fee 
+          : Rs.99. Nil for redemption on Air India Miles 
+         ","Late payment fee 
+          : If the total amount due lies in between: 
+            Rs.0 to Rs.200 – NIL 
+            Rs.201 to Rs.500 – Rs.100 
+            Rs.501 to Rs.1,000 – Rs.400 
+            Rs.1,001 to Rs.10,000 – Rs.600 
+            Rs.10,001 to Rs.25,000 – Rs.800 
+            Rs.25,001 and above – Rs.950 
+         ","Cheque payment fee 
+          : Rs.100 (For cheque payments up to Rs.10,000) 
+         ","Card replacement charge 
+          : Rs.100 (when in India) 
+            NIL (when in abroad) 
+         ","Foreign currency transaction fee 
+          : 3.5% of the transaction amount 
+         ",Type of charges : Amount,"Over limit charges 
+          : 2.5% of the amount, subject to a minimum of Rs.500 
+         ","rewards-type : Travel, Rewards, Fuel","Payment dishonour fee 
+          : 2% of payment amount subject to a minimum of Rs.450 
+         "
+Air India SBI Signature Credit Card ,SBI Cards,Visa,4999,,"Rs.4,999",Up to 3.35% per month,,,3.5% of the transaction amount,,"Cheque payment fee : Rs.100 (For cheque payments up to Rs.10,000)",Rewards redemption fee : Rs.99. Nil for redemption on Air India Miles,Cheque pickup : Rs.100,Cash payment fee : Rs.100,Payment dishonour fee : 2% of the payment amount (minimum of Rs.450,Statement Retrieval fee : Rs.100 per statement (more than 2 months old),Over limit charges : 2.5% of the amount (minimum of Rs.500),"rewards-type : Premium, Travel, Rewards, Fuel"
+SBI ELITE Card ,SBI Cards,Visa,4999,,,,,,,,"Payment dishonour fee 
+          : 2% of the payment amount for a minimum amount of Rs.450. 
+         ","Statement retrieval fee 
+          : Rs.100 per statement which will be more than 2 months old. 
+         ","Card replacement charge  
+          : Rs.100 
+         ","Surcharge on railway tickets booked online through IRCTC website 
+          : 1.8% of the transaction amount added with service charge 
+         ","Interest rate 
+          : 3.35% per month 
+         ","Rewards redemption fee
+          : Rs.99 
+         ","Over-limit fee 
+          : 2.5% of the over limit amount, for a minimum of Rs.500. 
+         ","Surcharge on railway tickets booked at IRCTC ticket counters 
+          : 2.5% of the transaction amount with an additional charge of Rs.30 
+         ","Joining fee 
+          : Nil 
+         ","Annual fee 
+          : Rs.4,999 
+         ","Foreign currency transaction fee 
+          : The conversion markup is 1.99% 
+         ","rewards-type : Premium, Rewards, Travel, Lifestyle, Fuel","Cash withdrawal fee 
+          : Up to 80% of the credit limit with an upper limit of Rs.15,000 per day. 
+         "
 HSBC Visa Platinum Credit Card ,HSBC,Visa,0,,,,,,,,"rewards-type : Lifestyle, Rewards, Travel"
 HSBC Visa Smart Value Credit Card,HSBC,Visa,0,,,,,,,,rewards-type : Lifestyle
 HSBC Premier MasterCard Credit Card in India ,HSBC,,0,,,,,,,,rewards-type : LifeStyle
 HSBC Advance Visa Platinum Credit Card in India ,HSBC,,-,,,,,,,,rewards-type : Rewards
-IndusInd Bank Platinum Credit Card ,IndusInd Bank,Master,0,,,,,"2.5% of the withdrawal amount or Rs.300, whichever is higher",,,Over limit charges : 2.5% of the over limit amount subject to a minimum of Rs.500,Duplicate statement request charge : Rs.100 per statement (beyond last 3 months),"rewards-type : Rewards, Lifestyle, Fuel",Type of Fee : Amount (Rs.),Interest charge : 3.83% per month or 46% per annum,Cheque return or bounce charges : Rs.250 per return,Re-issue of lost or stolen card : Rs.100,Add-on credit card fee : NIL,Cash payment fee (over the counter) : Rs.100
-Jet Airways IndusInd Bank Voyage Visa Credit Card,IndusInd Bank,Visa,0,,Rs.0,,,"2.5% of the withdrawal amount or Rs.300, whichever is higher",,,Type of Fee : Amount (Rs.),Add-on credit card fee : NIL,Foreign currency mark-up fee : 3.5%,"rewards-type : Travel, Rewards, Fuel, Lifestyle",Interest charge : 3.83% per month or 46% per annum,Cheque return or bounce charges : Rs.250 per return,Over limit charges : 2.5% of the over limit amount subject to a minimum of Rs.500,Re-issue of lost or stolen card : Rs.100 ,Cash payment fee (over the counter) : Rs.100,Duplicate statement request charge : Rs.100 per statement (beyond last 3 months)
-Jet Airways IndusInd Bank Voyage Amex Credit Card ,IndusInd Bank,AMEX,0,,Rs.0,,,,,,Foreign currency mark-up charge : 3.5% on the transaction amount,Re-issue of lost or stolen card : Rs.100,Returned cheque  : Rs.250,Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,Add-on card fee : Nil,Cash advance charges : 2.5% of the advance amount subject to a minimum of Rs.300,Duplicate statement request  : Rs.100 per statement,"rewards-type : Travel, Rewards, Lifestyle, Fuel, Premium"
-IndusInd Bank Signature Legend Credit Card ,IndusInd Bank,Visa,9999,,"Rs.9,999",,,,,,Duplicate statement request : Rs.100 per statement,Re-issue of lost or stolen card : Rs.100,"rewards-type : Premium, Rewards, Travel, Lifestyle, Fuel",Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,Returned cheque : Rs.250,Add-on card fee : Nil,Cash advance charges : Nil
+IndusInd Bank Platinum Credit Card ,IndusInd Bank,Master,0,,,,,"2.5% of the withdrawal amount or Rs.300, whichever is higher",,,Re-issue of lost or stolen card : Rs.100,Duplicate statement request charge : Rs.100 per statement (beyond last 3 months),Interest charge : 3.83% per month or 46% per annum,Over limit charges : 2.5% of the over limit amount subject to a minimum of Rs.500,Cheque return or bounce charges : Rs.250 per return,Type of Fee : Amount (Rs.),Add-on credit card fee : NIL,Cash payment fee (over the counter) : Rs.100,"rewards-type : Rewards, Lifestyle, Fuel"
+Jet Airways IndusInd Bank Voyage Visa Credit Card,IndusInd Bank,Visa,0,,Rs.0,,,"2.5% of the withdrawal amount or Rs.300, whichever is higher",3.5%,,Interest charge : 3.83% per month or 46% per annum,"rewards-type : Travel, Rewards, Fuel, Lifestyle",Cash payment fee (over the counter) : Rs.100,Cheque return or bounce charges : Rs.250 per return,Type of Fee : Amount (Rs.),Add-on credit card fee : NIL,Over limit charges : 2.5% of the over limit amount subject to a minimum of Rs.500,Re-issue of lost or stolen card : Rs.100 ,Duplicate statement request charge : Rs.100 per statement (beyond last 3 months)
+Jet Airways IndusInd Bank Voyage Amex Credit Card ,IndusInd Bank,AMEX,0,,Rs.0,,,2.5% of the advance amount subject to a minimum of Rs.300,3.5% on the transaction amount,,Add-on card fee : Nil,Duplicate statement request  : Rs.100 per statement,Re-issue of lost or stolen card : Rs.100,Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,Returned cheque  : Rs.250,"rewards-type : Travel, Rewards, Lifestyle, Fuel, Premium"
+IndusInd Bank Signature Legend Credit Card ,IndusInd Bank,Visa,9999,,"Rs.9,999",,,Nil,,,Returned cheque : Rs.250,Re-issue of lost or stolen card : Rs.100,Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,"rewards-type : Premium, Rewards, Travel, Lifestyle, Fuel",Duplicate statement request : Rs.100 per statement,Add-on card fee : Nil
 IndusInd Bank Platinum Aura Edge Master Credit Card,IndusInd Bank,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle, Fuel, Travel, Premium"
-IndusInd Bank Platinum Aura Edge Credit Card | Credit Cards,IndusInd Bank,Visa,0,,,,,,,,Cash advance charges : 2.5% of the advance amount subject to a minimum of Rs.300,Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,Foreign currency mark-up charge : 3.5% on the transaction amount,Rs.0 : Nil,Duplicate statement request : Rs.100 per statement,"rewards-type : Rewards, Lifestyle, Fuel, Travel, Premium",Add-on card fee : Nil,Returned cheque : Rs.250,Re-issue of lost or stolen card : Rs.100
-IndusInd Bank Iconia Credit Card ,IndusInd Bank,,-,,,,,,,,rewards-type : Rewards
-IndusInd Bank Platinum Aura Credit Card ,IndusInd Bank,,-,,,,,,,,"rewards-type : LifeStyle, Travel"
-IndusInd Bank Platinum Select Credit Card ,IndusInd Bank,,-,,,,,,,,"rewards-type : LifeStyle, Travel"
-Indusind Bank Indulge Credit Card in India ,IndusInd Bank,,200000,,,,,,,,rewards-type : Premium
-IndusInd Bank Pinnacle Credit Card ,IndusInd Bank,,100000,,,,,,,,rewards-type : Premium
+IndusInd Bank Platinum Aura Edge Credit Card | Credit Cards,IndusInd Bank,Visa,0,,,,,2.5% of the advance amount subject to a minimum of Rs.300,3.5% on the transaction amount,,Over limit charges : 2.5% of Over Limit Amount subject to a minimum of Rs.500,Rs.0 : Nil,Returned cheque : Rs.250,Duplicate statement request : Rs.100 per statement,Add-on card fee : Nil,Re-issue of lost or stolen card : Rs.100,"rewards-type : Rewards, Lifestyle, Fuel, Travel, Premium"
+IndusInd Bank Iconia Credit Card ,IndusInd Bank,,-,,"Rs 17,999",,,,,,CashAdvance Charges : 2.5% of the advance amount or a minimum of Rs 250.,rewards-type : Rewards,Add-on Card fee : Nil,Interest Rates : 3.83% (monthly),Over limit charges : 2.5% of the over limit amount or a minimum of Rs 300.,"Late Payment Charges : Ranges from Rs 350 to Rs 550, depending on the outstanding balance."
+IndusInd Bank Platinum Aura Credit Card ,IndusInd Bank,,-,,,,,,,,Savings Plan Change : Rs.250,Joining Fees : Rs. 5999,Annual Interest Rate : 46%,"rewards-type : LifeStyle, Travel",Charge for Add-on Card : Nil
+IndusInd Bank Platinum Select Credit Card ,IndusInd Bank,,-,,,3.83% per month,,,,2.5%,Joining Fees : Rs. 5999,Add-on Card Fee : Nil,"Over Limit Charges : 2.5% of excess amount, upto a minimum amount of Rs.300","rewards-type : LifeStyle, Travel"
+Indusind Bank Indulge Credit Card in India ,IndusInd Bank,,200000,,,,,,,,rewards-type : Premium,CashAdvance Charges : 2.5% of the advance amount or a minimum of Rs 250.,Interest Rates : 1.79% (monthly),"Add-on Card fee : Rs 10,000","Late Payment Charges : Ranges from Rs 100 to Rs 700, depending on the outstanding balance.",Return Cheque Charges : Rs 250,Interest Free period : Up to 50 days
+IndusInd Bank Pinnacle Credit Card ,IndusInd Bank,,100000,,"Rs 1,00,000",,,,,,rewards-type : Premium,Interest Rates : 3.83% (monthly),"Late Payment Charges : Ranges from Rs 350 to Rs 550, depending on the outstanding balance.",Over limit charges : 2.5% of the over limit amount or a minimum of Rs 300.,Add-on Card fee : Nil,CashAdvance Charges : 2.5% of the advance amount or a minimum of Rs 250.
 Jet Airways IndusInd Bank Odyssey Credit Card – Offers,IndusInd Bank,,-,,,,,,,,rewards-type : Travel
 Standard Chartered Visa Infinite Credit Card ,Standard Chartered Bank,Visa,,,,,,,,,"rewards-type : Premium, Rewards"
 Standard Chartered Inner Circle Platinum Credit Card,Standard Chartered Bank,Visa,Nil,,,,,,,,rewards-type : LifeStyle
 Standard Chartered Platinum Rewards Credit Card ,Standard Chartered Bank,Visa,Nil,,,,,,,,rewards-type : Shopping &amp; Cashback
 Standard Chartered Yatra Platinum Credit Card ,Standard Chartered Bank,Visa,499,,,,,,,,rewards-type : Travel
 Standard Chartered Platinum Elite Credit Card in India,Standard Chartered Bank,,"4,995",,,,,,,,rewards-type : LifeStyle
-Citi PremierMiles Card ,CITI,Visa,3000,,,,,,3.5%,,Credit Card Fee Type : Charges,Late payment fee : Rs.100 per month,Railway ticket booking surcharge : 1.8% of the transaction value,Cash payment at ATMs : Rs.50 per payment,Supplementary card fee : Nil,Cheque return or bounce fee : Rs.350 per return,Re-issue of the card : NIL,Statement request fee : NIL,"rewards-type : Travel, Premium, Rewards",Interest rate : 3.1% to 3.5% per month or 37.20% to 42% per annum,Cash advance fee : 2% for domestic withdrawal with a minimum amount of Rs.300.,"Over credit limit fee : 2.5% of the over limit amount, subject to a minimum of Rs.500",Cash payment fee (over the counter) : Rs.100 per deposit
-IndianOil Citi Platinum Card ,CITI,Visa,1000,,Nil,,,,,,"Late payment fee : Current balance less than Rs.10,001 – Rs.300
+Citi PremierMiles Card ,CITI,Visa,3000,,,3.1% to 3.5% per month or 37.20% to 42% per annum,,2% for domestic withdrawal with a minimum amount of Rs.300.,3.5%,,Statement request fee : NIL,Cash payment fee (over the counter) : Rs.100 per deposit,Supplementary card fee : Nil,Cash payment at ATMs : Rs.50 per payment,Credit Card Fee Type : Charges,Cheque return or bounce fee : Rs.350 per return,"Over credit limit fee : 2.5% of the over limit amount, subject to a minimum of Rs.500",Late payment fee : Rs.100 per month,Railway ticket booking surcharge : 1.8% of the transaction value,Re-issue of the card : NIL,"rewards-type : Travel, Premium, Rewards"
+IndianOil Citi Platinum Card ,CITI,Visa,1000,,Nil,3.25% per month,2.5% for a domestic withdrawal subjected to a minimum amount of Rs.500,,,,Credit Card Fee Type : Charges,Railway ticket booking surcharge : 1.8% of the transaction value,Cash payment at ATMs : Rs.100 per deposit,Supplementary card fee : Nil,Rewards Redemption fee : Nil,Cheque return or bounce fee : Rs.500 per returned cheque,Re-issue of the card : Rs.100,"rewards-type : Fuel, Rewards, Lifestyle","Over credit limit fee : 2.5% of the amount which is over the credit limit and for a minimum of Rs.500. The amount excludes charges, taxes and fees).","Late payment fee : Current balance less than Rs.10,001 – Rs.300
 Current balance between Rs.10,001 up to Rs.25,000 – Rs.600
 Current balance above Rs.25,000 – Rs.950
-",Statement request fee : Rs.100(beyond 3 months),Credit Card Fee Type : Charges,Interest rate : 3.25% per month,Cash payment at ATMs : Rs.100 per deposit,"rewards-type : Fuel, Rewards, Lifestyle",Railway ticket booking surcharge : 1.8% of the transaction value,Cash payment fee : Rs.250 per deposit,Rewards Redemption fee : Nil,"Over credit limit fee : 2.5% of the amount which is over the credit limit and for a minimum of Rs.500. The amount excludes charges, taxes and fees).",Re-issue of the card : Rs.100,Supplementary card fee : Nil,Cash Withdrawal fee : 2.5% for a domestic withdrawal subjected to a minimum amount of Rs.500,Cheque return or bounce fee : Rs.500 per returned cheque
-Citi Rewards Card ,CITI,Visa,1000,,Nil,,,,,,Supplementary card fee : Nil,Rewards Redemption fee : Nil,Cash payment at ATMs : Rs.100 per deposit,Interest rate : 3.25% per month,Cheque return or bounce fee : Rs.500 per returned cheque,Statement request fee : Rs.100 (Beyond 3 months),Railway ticket booking surcharge : 1.8% of the transaction value,Credit Card Fee Type : Charges,"Late payment fee : Rs.300 for a current balance less than Rs.10,001
+",Statement request fee : Rs.100(beyond 3 months),Cash payment fee : Rs.250 per deposit
+Citi Rewards Card ,CITI,Visa,1000,,Nil,3.25% per month,2.5% for a domestic withdrawal for a minimum amount of Rs.500,,,,Rewards Redemption fee : Nil,Supplementary card fee : Nil,Cheque return or bounce fee : Rs.500 per returned cheque,Re-issue of the card : Rs.100,Cash payment at ATMs : Rs.100 per deposit,Credit Card Fee Type : Charges,"rewards-type : Rewards, Lifestyle","Late payment fee : Rs.300 for a current balance less than Rs.10,001
 Rs.600 for a current balance between Rs.10,001 up to Rs.25,000
 Rs.950 for a current balance above Rs.25,000
-",Cash payment fee : Rs.250 per deposit,"rewards-type : Rewards, Lifestyle",Cash Withdrawal fee : 2.5% for a domestic withdrawal for a minimum amount of Rs.500,"Over credit limit fee : 2.5% on the amount which will be over the credit limit. The minimum will be Rs.500. (The amount will exclude charges, taxes and fees).",Re-issue of the card : Rs.100
-Citi Cashback Card ,CITI,Visa,500,,Nil,,,,,,Supplementary card fee : Nil,Cheque return or bounce fee : Rs.500 per returned cheque,"rewards-type : Lifestyle, Rewards",Credit Card Fee Type : Charges,Statement request fee : Rs.100 (For more than 3 months),Cash payment at ATMs : Rs.100 per deposit,Interest rate : A variable interest between 3.1% - 3.5% per month.,Rewards Redemption fee : Nil,Cash payment fee : Rs.250 per deposit,Cash Withdrawal fee : 2.5% for a domestic withdrawal for a minimum amount of Rs.500,"Over credit limit fee : 2.5% on the amount over the credit limit. The minimum will be Rs.500. (The amount excludes charges, taxes and fees).",Railway ticket booking surcharge : 1.8% of the transaction value,Re-issue of the card : Rs.100
-Citibank Rewards Domestic Credit Card ,CITI,,1000,,,,,,,,"rewards-type : LifeStyle, Shopping &amp; Cashback"
+","Over credit limit fee : 2.5% on the amount which will be over the credit limit. The minimum will be Rs.500. (The amount will exclude charges, taxes and fees).",Railway ticket booking surcharge : 1.8% of the transaction value,Statement request fee : Rs.100 (Beyond 3 months),Cash payment fee : Rs.250 per deposit
+Citi Cashback Card ,CITI,Visa,500,,Nil,A variable interest between 3.1% - 3.5% per month.,2.5% for a domestic withdrawal for a minimum amount of Rs.500,,,,Railway ticket booking surcharge : 1.8% of the transaction value,Cash payment fee : Rs.250 per deposit,"rewards-type : Lifestyle, Rewards","Over credit limit fee : 2.5% on the amount over the credit limit. The minimum will be Rs.500. (The amount excludes charges, taxes and fees).",Cash payment at ATMs : Rs.100 per deposit,Supplementary card fee : Nil,Rewards Redemption fee : Nil,Re-issue of the card : Rs.100,Cheque return or bounce fee : Rs.500 per returned cheque,Statement request fee : Rs.100 (For more than 3 months),Credit Card Fee Type : Charges
+Citibank Rewards Domestic Credit Card ,CITI,,1000,,,3.25% per month,,2.0% on the amount withdrawn,,,"Late Payment Charges : Between Rs 300 to Rs 700, depending on the outstanding balance","rewards-type : LifeStyle, Shopping &amp; Cashback"
 Citibank Prestige Credit Card in India – Eligibility,CITI,,20000,,,,,,,,"rewards-type : Premium, Travel"
-Citibank Corporate Credit Card ,CITI,,-,,,,,,,,rewards-type : LifeStyle
-First Citizen Citibank Titanium Credit Card ,CITI,,500,,,,,,,,rewards-type : Shopping &amp; Cashback
-YES Premia Credit Card ,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-Yes First Preferred Credit Card,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-Yes Prosperity Edge Credit Card,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-Yes Prosperity Rewards Plus Credit Card,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-YES Bank First Business Credit Card,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-YES Bank prosperity Business Credit Card,YES BANK,Master,0,,,,,,,,"rewards-type : Rewards, Lifestyle"
-Kotak Bank Royale Signature Credit Card ,Kotak Mahindra,Visa,0,,,,,,,,"ATM cash withdrawal fee, call-a-draft fee, and find transfer fee : Rs.300",Card replacement charges : Rs.100,Over limit charges : Rs.500,"Joining fee (paid variant) : Rs.1,499",Joining fee (free variant) : NIL,Foreign currency mark-up : 3.50%,Cheque return charges : Rs.500,To get a copy of Credit Information Report (CIBIL) : Rs.50,Annual fee (paid variant) : Rs.999,Annual fee (free variant) : Rs.999,Add-on card fee : NIL,"rewards-type : Rewards, Travel, Fuel, Lifestyle",Interest Charges : 3.40% per month or 37.2% per annum,Credit card bill payment at bank branches : Rs.100,Reissue or replacement of the card : Rs.100
-Kotak Bank PVR Platinum Credit Card ,Kotak Mahindra,Visa,999,,NIL,,,,,,Outstation cheque processing fee : NIL,Over-limit charge : Rs.500,Cheque bounce charges : Rs.500,Card replacement (Reissue) fee : Rs.100,"rewards-type : Lifestyle, Rewards",Furnishing a copy of Credit Information Report (CIBIL) : Rs.50,Rate of interest : 3.5%,Add-on card fees : Rs.299 per add-on card,Foreign currency markup fee : 3.5% of the transaction amount,Cash payment at bank fee : Rs.100
+Citibank Corporate Credit Card ,CITI,,-,,,,2.0%. The Cash Advance Fee is subject to USD 7.5 at International ATMs and 300 INR in India,,Mark of 3.5% along with all applicable taxes,,Credit Card repayments made by cash at Citibank branches : 100 INR,Joining Fees and Annual Fees : All the fees that are applicable to both Principal and Additional card will be communicated when the cards are sourced,rewards-type : LifeStyle,Request for Statement beyond three months : 100 INR,Charges for Card Replacement : 100 INR,Over Credit Limit charge : It is not applicable for this card,Transaction charges for Petrol : 2.5%. It is subject to a minimum of 10 INR,Railway Ticket booking or cancellation surcharge (at the counter) : 2.5%.t is subject to a minimum of 25 INR,Credit Card repayments made by cash at Citibank ATMs : 50 INR
+First Citizen Citibank Titanium Credit Card ,CITI,,500,,,3.25% per month,,,,,"Late Payment Charges : Ranges from Rs 300 to 700, depending on the outstanding balance.",Supplementary Card Fee : Nil,Emergency Card Replacement : Available,rewards-type : Shopping &amp; Cashback
+YES Premia Credit Card ,YES BANK,Master,0,,,,,,,,"Returned cheque 
+          : Rs.350 
+         ","Duplicate statement request 
+          : Rs.100 per statement 
+         ","rewards-type : Rewards, Lifestyle","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil  
+            From Rs.101 to Rs.500- Rs.100  
+            From Rs.501to Rs.5,000- Rs.400  
+            From Rs.5,001 to Rs.20,000- Rs.500  
+            Above Rs.20,000- Rs.700 
+         ","Foreign currency mark-up charge 
+          : 2.50% on the transaction amount 
+         ","Re-issue of lost or stolen card 
+          : Rs.100 
+         ","Type of fee 
+          : Amount 
+         ","Finance charges 
+          : For YES Bank salary and savings account holders: 2.99% per month and 35.88% per annum.  
+            For Non-YES Bank cardholders: 3.22% per month and 38.64% annually.  
+         ","Cash advance charges 
+          : 2.5% of the advance amount 
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         ","Add-on card fee 
+          : Nil up to 3 cards 
+         ","Joining fees 
+          : Rs.1,500 (Waived if applied through BankBazaar or if total retail spends exceed Rs.20,000 within the first 90 days from the date of card issuance) 
+         ","Annual fee 
+          : Rs.1,500 (Waived if total retail spends exceed Rs.1,50,000 within 12 months prior to the renewal) 
+         "
+Yes First Preferred Credit Card,YES BANK,Master,0,,,,,,,,"Annual fee 
+          : Rs.2,500 
+         ","Finance charges 
+          : For YES Bank salary and savings account holders- 2.75% per month and 23.88% per annum. 
+            For Non-YES Bank cardholders: 2.75% per month and 33% annually. 
+            For cards issued against fixed deposits: 2.59% per month and 31.08% per annum.  
+         ","Returned cheque  
+          : Rs.350 
+         ","rewards-type : Rewards, Lifestyle","Cash advance charges 
+          : 2.5% of the advance amount 
+         ","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil 
+            From Rs.101 to Rs.500- Rs.100 
+            From Rs.501to Rs.5,000- Rs.400 
+            From Rs.5,001 to Rs.20,000- Rs.500 
+            Above Rs.20,000- Rs.700 
+         ","Duplicate statement request  
+          : Rs.100 per statement 
+         ",Type of fee : Amount,"Joining fees 
+          : Rs.2,500 (Waived if applied through BankBazaar) 
+         ","Foreign currency mark-up charge 
+          : 1.75% on the transaction amount 
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         ","Add-on card fee 
+          : Nil up to 3 cards 
+         ","Re-issue of lost or stolen card 
+          : Rs.100 
+         "
+Yes Prosperity Edge Credit Card,YES BANK,Master,0,,,,,,,,"Cash advance charges 
+          : 2.5% of the advance amount 
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         ","Add-on card fee 
+          : Nil up to 3 cards 
+         ","Re-issue of lost or stolen card 
+          : Rs.100 
+         ",Type of fee : Amount,"Annual fee 
+          : Rs.1,000 (Waived if total spends exceed Rs.75,000 within 12 months prior to the renewal) 
+         ","Foreign currency mark-up charge 
+          : 3% on the transaction amount 
+         ","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil  
+            From Rs.101 to Rs.500- Rs.100  
+            From Rs.501to Rs.5,000- Rs.400  
+            From Rs.5,001 to Rs.20,000- Rs.500  
+            Above Rs.20,000- Rs.700 
+         ","Returned cheque 
+          : Rs.350 
+         ","Duplicate statement request 
+          : Rs.100 per statement 
+         ","rewards-type : Rewards, Lifestyle","Joining fees 
+          : Rs.1,000 (Waived if total spends exceed Rs.15,000 within the first 90 days from the date of card issuance) 
+         ","Finance charges 
+          : For YES Bank salary and savings account holders 2.99% per month and 35.88% per annum.  
+            For Non-YES Bank cardholders: 3.22% per month and 38.64% annually.  
+         "
+Yes Prosperity Rewards Plus Credit Card,YES BANK,Master,0,,,,,,,,"Add-on card fee 
+          : Nil up to 3 cards 
+         ","Foreign currency mark-up charge 
+          : 3.40% on the transaction amount 
+         ","Re-issue of lost or stolen card 
+          : Rs.100 
+         ","Finance charges 
+          : For YES Bank salary and savings account holders- 2.99% per month and 35.88% per annum.  
+            For Non-YES Bank cardholders: 3.22% per month and 38.64% annually.  
+         ","Cash advance charges 
+          : 2.5% of the advance amount 
+         ","Joining fees 
+          : Rs.350(Waived if applied through BankBazaar or if total spends exceed Rs.7,500 within 90 days from the date of card issuance) 
+         ","Returned cheque 
+          : Rs.350 
+         ","rewards-type : Rewards, Lifestyle",Type of fee : Amount,"Annual fee 
+          : Rs.350 (Waived if annual spends exceed Rs.25,000 in the previous year) 
+         ","Duplicate statement request 
+          : Rs.100 per statement 
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         ","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil  
+            From Rs.101 to Rs.500- Rs.100  
+            From Rs.501to Rs.5,000- Rs.400  
+            From Rs.5,001 to Rs.20,000- Rs.500  
+            Above Rs.20,000- Rs.700 
+         "
+YES Bank First Business Credit Card,YES BANK,Master,0,,,,,,,,"Re-issue of lost or stolen card 
+          : Rs.100 
+         ","Joining fees 
+          : Rs.5,000 (Waived if applied through BankBazaar) 
+         ","Annual fee 
+          : Rs.5,000 plus applicable taxes 
+         ","Add-on card fee 
+          : Nil up to 3 cards 
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         ","Duplicate statement request 
+          : Rs.100 per statement 
+         ","rewards-type : Rewards, Lifestyle","Type of fee 
+          : Amount 
+         ","Returned cheque 
+          : Rs.350 
+         ","Foreign currency mark-up charge 
+          : 1.75% on the transaction amount 
+         ","Finance charges 
+          : For YES Bank current, savings, and business banking relationship- 1.99% per month and 23.88% p.a.  
+            For Non-YES Bank current, savings, or business banking customers- 2.75% per month and 33% p.a.  
+         ","Cash advance charges 
+          : 2.5% of the advance amount 
+         ","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil  
+            From Rs.101 to Rs.500- Rs.100  
+            From Rs.501to Rs.5,000- Rs.400  
+            From Rs.5,001 to Rs.20,000- Rs.500  
+            Above Rs.20,000- Rs.700 
+         "
+YES Bank prosperity Business Credit Card,YES BANK,Master,0,,,,,,,,"Annual fee 
+          : Rs.2,500 plus applicable taxes 
+         ","Add-on card fee 
+          : Nil up to 3 cards 
+         ","Late payment fees 
+          : Outstanding balance up to Rs.100- Nil  
+            From Rs.101 to Rs.500- Rs.100  
+            From Rs.501to Rs.5,000- Rs.400  
+            From Rs.5,001 to Rs.20,000- Rs.500  
+            Above Rs.20,000- Rs.700 
+         ","Foreign currency mark-up charge 
+          : 2.50% on the transaction amount 
+         ","Joining fees 
+          : Rs.2,500 (Waived if applied through BankBazaar) 
+         ","Duplicate statement request 
+          : Rs.100 per statement 
+         ","Returned cheque 
+          : Rs.350 
+         ","Re-issue of lost or stolen card 
+          : Rs.100 
+         ","Type of fee 
+          : Amount 
+         ","Cash advance charges 
+          : 2.5% of the advance amount 
+         ","rewards-type : Rewards, Lifestyle","Finance charges 
+          : For YES Bank salary and savings account holders- 2.99% per month and 35.88% per annum.  
+            For Non-YES Bank cardholders: 3.22% per month and 38.64% annually.  
+         ","Over limit charges 
+          : 2.5% of Over Limit Amount or Rs.500 (Whichever is higher) 
+         "
+Kotak Bank Royale Signature Credit Card ,Kotak Mahindra,Visa,0,,NIL,3.40% per month or 37.2% per annum,Rs.300,,3.50%,,Cheque return charges : Rs.500,Credit card bill payment at bank branches : Rs.100,Reissue or replacement of the card : Rs.100,To get a copy of Credit Information Report (CIBIL) : Rs.50,Annual fee (paid variant) : Rs.999,"rewards-type : Rewards, Travel, Fuel, Lifestyle",Annual fee (free variant) : Rs.999,Over limit charges : Rs.500,Add-on card fee : NIL,Card replacement charges : Rs.100
+Kotak Bank PVR Platinum Credit Card ,Kotak Mahindra,Visa,999,,NIL,3.5%,,,3.5% of the transaction amount,,Outstation cheque processing fee : NIL,Cheque bounce charges : Rs.500,Over-limit charge : Rs.500,Furnishing a copy of Credit Information Report (CIBIL) : Rs.50,"rewards-type : Lifestyle, Rewards",Card replacement (Reissue) fee : Rs.100,Cash payment at bank fee : Rs.100,Add-on card fees : Rs.299 per add-on card
 "Kotak Bank Essentia Platinum Credit Card | 6 free PVR tickets | 10% Off On Groceries
-",Kotak Mahindra,Visa,1499,,"Rs.1,499",,,,,,Reissue or replacement of the card : Rs.100 (per issuance),Over limit fee : Rs.500,Interest charges on outstanding balances : 3.50% per month,Furnishing a copy of CIBIL : Rs.50,"Cash withdrawal fee per Rs.10,000 or part thereof : Rs.300",Fee for cash payment at a branch of the bank : Rs.100,"rewards-type : Lifestyle, Rewards",Add on card charges : Rs.299 per card
-Kotak PVR Gold Credit Card ,Kotak Mahindra,Visa,499,,Nil,,,,,,Foreign currency mark-up charges : 3.5%,"rewards-type : Lifestyle, Rewards",Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),Fees related to cash payments at the bank : Rs.100,Providing a CIBIL report : Rs.50,Charges for reissuing of the card : Rs.100,Interest on pending dues on the card : 3.50%,"Cash advance per Rs.10,000 or part thereof : Rs.300","Rs.500-Rs.10,000 : Rs.500"," > Rs.10,000 : Rs.700",Charges for over-limit : Rs.500,Penalty for cheque bounce : Rs.500
-Kotak Bank Delight Platinum Credit Card ,Kotak Mahindra,Visa,1999,,"Rs.1,999",,,,,,Charges for Over-limit : Rs.500,Fees related to cash payments at the bank : Rs.100,Providing a CIBIL report : Rs.50,Interest on pending dues on the card : 3.40%,Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),"Rs.500.01-Rs.10,000 : Rs.500"," > Rs.10,000 : Rs.700",Penalty for Cheque Bounce : Rs.500,Foreign Currency mark-up charges : 3.5%,Charges for reissuing of the card : Rs.100,"rewards-type : Lifestyle, Rewards"
-Kotak Bank Privy League Visa Signature Credit Card,Kotak Mahindra,,5000,,,,,,,,"rewards-type : Premium, LifeStyle"
+",Kotak Mahindra,Visa,1499,,"Rs.1,499",,,,,,Furnishing a copy of CIBIL : Rs.50,Fee for cash payment at a branch of the bank : Rs.100,"rewards-type : Lifestyle, Rewards",Interest charges on outstanding balances : 3.50% per month,"Cash withdrawal fee per Rs.10,000 or part thereof : Rs.300",Over limit fee : Rs.500,Reissue or replacement of the card : Rs.100 (per issuance),Add on card charges : Rs.299 per card
+Kotak PVR Gold Credit Card ,Kotak Mahindra,Visa,499,,Nil,3.50%,,,3.5%,,Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),Fees related to cash payments at the bank : Rs.100,Charges for reissuing of the card : Rs.100,"rewards-type : Lifestyle, Rewards","Cash advance per Rs.10,000 or part thereof : Rs.300","Rs.500-Rs.10,000 : Rs.500",Charges for over-limit : Rs.500,Penalty for cheque bounce : Rs.500,Providing a CIBIL report : Rs.50,"> Rs.10,000 : Rs.700"
+Kotak Bank Delight Platinum Credit Card ,Kotak Mahindra,Visa,1999,,"Rs.1,999",3.40%,,,3.5%,,Charges for reissuing of the card : Rs.100,"Rs.500.01-Rs.10,000 : Rs.500",Charges for Over-limit : Rs.500,Fees related to cash payments at the bank : Rs.100,"rewards-type : Lifestyle, Rewards",Minimum Amount Due (MAD) : 5% or 10% (depends on the total amount due),"> Rs.10,000 : Rs.700",Penalty for Cheque Bounce : Rs.500,Providing a CIBIL report : Rs.50
+Kotak Bank Privy League Visa Signature Credit Card,Kotak Mahindra,,5000,,The card is available in two variants with a joining fee of Rs.7500 and Rs.5000 respectively.,2.49%,,,3.50%,,Lost and Damaged card replacement fee : Rs.100,Late Payment Charges : Rs.100 to Rs.700 depending on the pending amount.,Over Limit Charges : Rs.500,"rewards-type : Premium, LifeStyle",Cash Withdrawal and Fund Transfer Charges : Rs.300
 RBL Platinum Maxima Card ,RBL BANK,Master,4000,,,,,,,,"rewards-type : Premium, Rewards"
-RBL Platinum Delight Card ,RBL BANK,Master,4000,,,,,,,,rewards-type : Shopping &amp; Cashback
+RBL Platinum Delight Card ,RBL BANK,Master,4000,,Will be communicated at the time of application.,,,,,,"Renewal fee : Upto Rs.4,000",Minimum Amount Due (MAD) : 5% of (Total Amount Due + Over limit Amount),Over Limit Penalty : Rs.600,Feature : Applicable Fee,Interest Rate (Cash & Retail Purchases) : 3.5% per month (42% per annum),"Add-on Card fee : Upto Rs.1,000",rewards-type : Shopping &amp; Cashback,Card Replacement Charges : Rs.200
 RBL Bank Platinum Cricket Credit Card ,RBL BANK,,"1,000",,,,,,,,"rewards-type : LifeStyle, Rewards"
 RBL Titanium Delight Card ,RBL BANK,Master,2000,,,,,,,,rewards-type : Shopping &amp; Cashback
 RBL Bank Fun+ Credit Card ,RBL BANK,,,,,,,,,,"rewards-type : LifeStyle, Rewards"
-RBL Bank Classic Shopper Credit Card ,RBL BANK,,"Upto 4,000",,,,,,,,"Annual Fee
- : Up to Rs. 2,000
-","Minimum due
- : 5% of the amount due + Overlimit amount
-","Add on Card
+RBL Bank Classic Shopper Credit Card ,RBL BANK,,"Upto 4,000",,,,,,,,Charge : Amount,"Add on Card
  : Up to Rs. 500
-","Joining Fee
- : Communicated at the time of application.
+",rewards-type : Rewards,"Annual Fee
+ : Up to Rs. 2,000
 ","Interest on revolving credit
  : Up to 3.4% per month (40.80% p.a.)
-",Charge : Amount,rewards-type : Rewards
-RBL Bank Classic Reward Credit Card ,RBL BANK,,"Upto 4,000",,Communicated at the time of application.,,,,,,Interest on revolving credit : Up to 3.4% per month (40.80% p.a.),rewards-type : Rewards," Titanium  :  Platinum ",Minimum due : 5% of the total amount due + any amount over limit
-RBL Bank Classic Platinum Credit Card ,RBL BANK,,"Upto 4,000",,,,,,,,rewards-type : Rewards
+","Joining Fee
+ : Communicated at the time of application.
+","Minimum due
+ : 5% of the amount due + Overlimit amount
+"
+RBL Bank Classic Reward Credit Card ,RBL BANK,,"Upto 4,000",,Communicated at the time of application.,Up to 3.4% per month (40.80% p.a.),,,,,Minimum due : 5% of the total amount due + any amount over limit,rewards-type : Rewards,Titanium  : Platinum 
+RBL Bank Classic Platinum Credit Card ,RBL BANK,,"Upto 4,000",,,,,,,,"Charge
+				 : Amount (INR)
+				","Annual Fee
+				 : Up to Rs. 4,000
+			","Minimum due
+				 : 5% of the total amount due + any amount over limit
+			","Add on Cards
+				 : Up to Rs. 1,000
+			",rewards-type : Rewards,"Joining Fee
+				 : Communicated at the time of application.
+			","Interest on revolving credit
+				 : Up to 3.4% per month (40.80% p.a.)
+			"
 RBL Bank IGU NHS Golf World Credit Card ,RBL BANK,,,,"Nil
-",,,,,,Charge : Amount,"Add on Card : Nil
-","Interest on revolving credit : Up to 3.4% per month (40.80% p.a.)
-","Minimum due : 5% of the amount due + EMI + Overlimit amount
-",rewards-type : LifeStyle
+","Up to 3.4% per month (40.80% p.a.)
+",,,,,"Minimum due : 5% of the amount due + EMI + Overlimit amount
+",rewards-type : LifeStyle,Charge : Amount,"Add on Card : Nil
+"
